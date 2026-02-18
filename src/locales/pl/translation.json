@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Eluize Inn Apartamenty Dubrownik | Zakwaterowanie w Lapad",
+    "description": "Nowoczesne apartamenty 1- i 2-pokojowe w Dubrowniku Lapad, blisko Starego Miasta i plaż. Rezerwuj bezpośrednio, aby zagwarantować najlepszą cenę."
+  },
+  "home": {
+    "h1": "Apartamenty w Dubrowniku – Eluize Inn",
+    "intro": "Nowoczesne zakwaterowanie w Dubrowniku Lapad, blisko plaż i Starego Miasta. Idealne dla par i rodzin szukających komfortu i dogodnej lokalizacji."
+  },
+  "address": {
+    "city": "Dubrownik",
+    "country": "HR"
+  },
+  "amenities": {
+    "wifi": "Darmowe Wi-Fi",
+    "parking": "Parking",
+    "breakfast": "Śniadanie"
+  },
+  "accomodation": {
+    "pageTitle": "Zakwaterowanie | Eluize Inn Apartments",
+    "h2": "Komfortowe pobyty dla każdego",
+    "intro1": "Większość jednostek posiada w pełni wyposażoną kuchnię, umożliwiającą gościom przygotowywanie własnych posiłków.",
+    "intro2": "Idealne dla par lub rodzin, ponieważ każda jednostka ma dwie łazienki, a w salonie dostępna jest rozkładana sofa, jeśli zajdzie taka potrzeba.",
+    "highlightsTitle": "Najważniejsze cechy",
+    "highlights": {
+      "wifi": "Darmowe Wi-Fi we wszystkich jednostkach",
+      "parking": "Bezpłatny prywatny parking na miejscu",
+      "airConditioning": "Dwie jednostki klimatyzacyjne w każdym apartamencie",
+      "kitchen": "W pełni wyposażone kuchnie",
+      "livingRoom": "Salon z sofą",
+      "bathrooms": "Dwie łazienki w każdej jednostce"
+    },
+    "suites": [
+      {
+        "title": "Apartament dwuosobowy z balkonem",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853"
+      },
+      {
+        "title": "Apartament trzyosobowy",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
+      },
+      {
+        "title": "Apartament jednopokojowy z balkonem",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
+      },
+      {
+        "title": "Apartament rodzinny",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32706"
+      }
+    ]
+  },
+  "contact": {
+    "heroTitle": "Skontaktuj się z nami",
+    "getInTouch": "Skontaktuj się",
+    "intro": "Chętnie Cię usłyszymy! Wypełnij formularz lub skontaktuj się z nami za pomocą poniższych danych.",
+    "address": { "street": "Iva Dulčića 20/C", "city": "20000 Dubrownik" },
+    "phone": {
+      "label": "Telefon",
+      "numbers": ["+385995263114", "+385992435616"]
+    },
+    "email": { "label": "E-mail", "address": "info@eluize-inn.com" },
+    "mapTitle": "Lokalizacja Eluize Dubrownik",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+  },
+  "location": {
+    "meta": {
+      "title": "Nasza lokalizacja w Dubrowniku | Eluize Inn Apartments",
+      "description": "Eluize Inn znajduje się w Lapad, Dubrownik, blisko plaż i Starego Miasta. Idealne miejsce dla par i rodzin.",
+      "ogTitle": "Nasza lokalizacja w Dubrowniku | Eluize Inn",
+      "ogDescription": "Zatrzymaj się w Lapad, Dubrownik, blisko plaż i Starego Miasta. Doskonała lokalizacja na wakacje."
+    },
+    "heroTitle": "Nasza lokalizacja",
+    "areaTitle": "Lapad, Dubrownik",
+    "areaDescription": "Lapad jest jedną z najpiękniejszych i najspokojniejszych dzielnic Dubrownika, znaną z plaż, promenady, restauracji i łatwego dostępu do Starego Miasta.",
+    "cards": {
+      "oldTown": { "title": "Stare Miasto", "text": "10 minut samochodem" },
+      "beach": { "title": "Najbliższa plaża", "text": "5 minut pieszo" },
+      "bus": {
+        "title": "Dworzec autobusowy",
+        "text": "Bezpośrednie połączenie z centrum miasta"
+      },
+      "airport": { "title": "Lotnisko", "text": "25 minut samochodem" }
+    }
+  },
+  "bookForm": {
+    "submitButton": "Sprawdź teraz"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "accommodation": "Zakwaterowanie",
+    "location": "Lokalizacja",
+    "contact": "Kontakt"
+  },
+  "rooms": {
+    "gallery": "Galeria"
+  },
+  "footer": {
+    "copyright": "Prawa autorskie © {{year}}, {{hotelName}}. Wszelkie prawa zastrzeżone."
+  },
+  "contactForm": {
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "Email",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Napisz do nas wiadomość...",
+    "submit": "Wyślij wiadomość",
+    "sending": "Wysyłanie...",
+    "success": "Wiadomość została wysłana!",
+    "error": "Coś poszło nie tak, spróbuj ponownie."
+  }
+}

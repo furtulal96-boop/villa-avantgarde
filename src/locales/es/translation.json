@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Eluize Inn Apartamentos Dubrovnik | Alojamiento en Lapad",
+    "description": "Apartamentos modernos de 1 y 2 dormitorios en Dubrovnik Lapad, cerca del casco antiguo y las playas. Reserva directa para garantizar el mejor precio."
+  },
+  "home": {
+    "h1": "Apartamentos en Dubrovnik – Eluize Inn",
+    "intro": "Alojamiento moderno en Dubrovnik Lapad, cerca de las playas y el casco antiguo. Ideal para parejas y familias que buscan comodidad y ubicación."
+  },
+  "address": {
+    "city": "Dubrovnik",
+    "country": "HR"
+  },
+  "amenities": {
+    "wifi": "Wi-Fi gratuito",
+    "parking": "Estacionamiento",
+    "breakfast": "Desayuno"
+  },
+  "accomodation": {
+    "pageTitle": "Alojamiento | Eluize Inn Apartments",
+    "h2": "Estancias cómodas para todos",
+    "intro1": "La mayoría de las unidades incluyen una cocina totalmente equipada, lo que permite a los huéspedes preparar sus propias comidas.",
+    "intro2": "Perfecto para parejas o familias, ya que cada unidad tiene dos baños y, en la sala de estar, hay un sofá cama convertible disponible si es necesario.",
+    "highlightsTitle": "Aspectos destacados",
+    "highlights": {
+      "wifi": "Wi-Fi gratuito en todas las unidades",
+      "parking": "Estacionamiento privado gratuito en el lugar",
+      "airConditioning": "Dos unidades de aire acondicionado por apartamento",
+      "kitchen": "Cocinas totalmente equipadas",
+      "livingRoom": "Sala de estar con sofá",
+      "bathrooms": "Dos baños por unidad"
+    },
+    "suites": [
+      {
+        "title": "Suite doble con balcón",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853"
+      },
+      {
+        "title": "Suite triple",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
+      },
+      {
+        "title": "Apartamento de un dormitorio con balcón",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
+      },
+      {
+        "title": "Suite familiar",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32706"
+      }
+    ]
+  },
+  "contact": {
+    "heroTitle": "Contáctanos",
+    "getInTouch": "Ponte en contacto",
+    "intro": "¡Nos encantaría saber de ti! Por favor, completa el formulario o contáctanos mediante los datos a continuación.",
+    "address": { "street": "Iva Dulčića 20/C", "city": "20000 Dubrovnik" },
+    "phone": {
+      "label": "Teléfono",
+      "numbers": ["+385995263114", "+385992435616"]
+    },
+    "email": {
+      "label": "Correo electrónico",
+      "address": "info@eluize-inn.com"
+    },
+    "mapTitle": "Ubicación de Eluize Dubrovnik",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+  },
+  "location": {
+    "meta": {
+      "title": "Nuestra ubicación en Dubrovnik | Eluize Inn Apartments",
+      "description": "Eluize Inn se encuentra en Lapad, Dubrovnik, cerca de las playas y el casco antiguo. Ubicación ideal para parejas y familias.",
+      "ogTitle": "Nuestra ubicación en Dubrovnik | Eluize Inn",
+      "ogDescription": "Alójate en Lapad, Dubrovnik, cerca de playas y casco antiguo. Ubicación perfecta para tus vacaciones."
+    },
+    "heroTitle": "Nuestra ubicación",
+    "areaTitle": "Lapad, Dubrovnik",
+    "areaDescription": "Lapad es una de las zonas más bonitas y tranquilas de Dubrovnik, conocida por sus playas, su paseo marítimo, restaurantes y fácil acceso al casco antiguo.",
+    "cards": {
+      "oldTown": { "title": "Casco Antiguo", "text": "10 minutos en coche" },
+      "beach": { "title": "Playa más cercana", "text": "5 minutos caminando" },
+      "bus": {
+        "title": "Estación de autobuses",
+        "text": "Conexión directa al centro de la ciudad"
+      },
+      "airport": { "title": "Aeropuerto", "text": "25 minutos en coche" }
+    }
+  },
+  "bookForm": {
+    "submitButton": "Comprobar ahora"
+  },
+  "nav": {
+    "home": "Inicio",
+    "accommodation": "Alojamiento",
+    "location": "Ubicación",
+    "contact": "Contacto"
+  },
+  "rooms": {
+    "gallery": "Galería"
+  },
+  "footer": {
+    "copyright": "Derechos de autor © {{year}}, {{hotelName}}. Todos los derechos reservados."
+  },
+  "contactForm": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "messagePlaceholder": "Déjanos un mensaje...",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Algo salió mal, por favor inténtalo de nuevo."
+  }
+}

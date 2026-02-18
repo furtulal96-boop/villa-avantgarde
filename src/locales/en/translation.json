@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Eluize Inn Apartments Dubrovnik | Lapad Accommodation",
+    "description": "Modern 1 and 2 bedroom apartments in Dubrovnik Lapad near Old Town and beaches. Book direct for best price guarantee."
+  },
+  "home": {
+    "h1": "Apartments in Dubrovnik – Eluize Inn",
+    "intro": "Modern accommodation in Dubrovnik Lapad, near beaches and Old Town. Ideal for couples and families seeking comfort and location."
+  },
+  "address": {
+    "city": "Dubrovnik",
+    "country": "HR"
+  },
+  "amenities": {
+    "wifi": "Free WiFi",
+    "parking": "Parking",
+    "breakfast": "Breakfast"
+  },
+  "accomodation": {
+    "pageTitle": "Accommodation | Eluize Inn Apartments",
+    "h2": "Comfortable Stays for Everyone",
+    "intro1": "Most of all units include a fully equipped kitchen, allowing guests to prepare their own meals.",
+    "intro2": "Perfect for couples or families because each unit has two bathrooms and, in living room, convertible sofa bed is available if needed.",
+    "highlightsTitle": "Highlights",
+    "highlights": {
+      "wifi": "Free Wi-Fi in all units",
+      "parking": "Free private parking on site",
+      "airConditioning": "Two Air conditioning units per apartment",
+      "kitchen": "Fully equipped kitchens",
+      "livingRoom": "Living room with sofa",
+      "bathrooms": "Two bathrooms per unit"
+    },
+    "suites": [
+      {
+        "title": "Double Bedroom Suite with Balcony",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853"
+      },
+      {
+        "title": "Triple Bedroom Suite",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
+      },
+      {
+        "title": "One Bedroom Apartment with Balcony",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
+      },
+      {
+        "title": "Family Suite",
+        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32706"
+      }
+    ]
+  },
+  "contact": {
+    "heroTitle": "Contact Us",
+    "getInTouch": "Get in touch",
+    "intro": "We'd love to hear from you! Please fill out the form or contact us using the details below.",
+    "address": {
+      "street": "Iva Dulčića 20/C",
+      "city": "20000 Dubrovnik"
+    },
+    "phone": {
+      "label": "Phone",
+      "numbers": ["+385995263114", "+385992435616"]
+    },
+    "email": {
+      "label": "Email",
+      "address": "info@eluize-inn.com"
+    },
+    "mapTitle": "Eluize Dubrovnik Location",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+  },
+  "location": {
+    "meta": {
+      "title": "Our Location in Dubrovnik | Eluize Inn Apartments",
+      "description": "Eluize Inn is located in Lapad, Dubrovnik, close to beaches and the Old Town. Ideal location for couples and families.",
+      "ogTitle": "Our Location in Dubrovnik | Eluize Inn",
+      "ogDescription": "Stay in Lapad, Dubrovnik near beaches and Old Town. Perfect location for your holiday."
+    },
+    "heroTitle": "Our Location",
+    "areaTitle": "Lapad, Dubrovnik",
+    "areaDescription": "Lapad is one of the most beautiful and peaceful areas of Dubrovnik, known for its beaches, promenade, restaurants, and easy access to the Old Town.",
+    "cards": {
+      "oldTown": {
+        "title": "Old Town",
+        "text": "10 minutes by car"
+      },
+      "beach": {
+        "title": "Nearest Beach",
+        "text": "5 minutes walking"
+      },
+      "bus": {
+        "title": "Bus Station",
+        "text": "Direct connection to city center"
+      },
+      "airport": {
+        "title": "Airport",
+        "text": "25 minutes drive"
+      }
+    }
+  },
+  "bookForm": {
+    "submitButton": "Check Now"
+  },
+  "nav": {
+    "home": "Home",
+    "accommodation": "Accommodation",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "rooms": {
+    "gallery": "Gallery"
+  },
+  "footer": {
+    "copyright": "Copyright © {{year}}, {{hotelName}}. All Rights Reserved."
+  },
+  "contactForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Leave us a message...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong, please try again."
+  }
+}
