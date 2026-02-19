@@ -13,7 +13,7 @@ import { useEffect } from "react";
 import SEOJsonLD from "./SeoJsonLD";
 import i18n from "./i18n";
 import RoomsApartments from "./pages/RoomsApartments";
-
+import Experience from "./pages/Experience";
 // ---------------- Language Wrapper ----------------
 const allowedLanguages = ["en", "it", "pl", "de", "fr", "es"];
 
@@ -62,6 +62,11 @@ const App = () => (
           element={<PageLayout Component={RoomsApartments} />}
         />
 
+        {/* Experience */}
+        <Route
+          path="/:lang/experience"
+          element={<PageLayout Component={Experience} />}
+        />
         {/* Location */}
         <Route
           path="/:lang/location"

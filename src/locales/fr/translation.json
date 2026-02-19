@@ -98,7 +98,8 @@
     "home": "Accueil",
     "accommodation": "Hébergement",
     "location": "Emplacement",
-    "contact": "Contact"
+    "contact": "Contact",
+    "experience": "Expérience"
   },
   "bookForm": {
     "submitButton": "Vérifier la disponibilité"

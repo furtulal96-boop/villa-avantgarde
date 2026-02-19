@@ -47,6 +47,7 @@ const Header = () => {
   const navLinks = [
     { to: `/${lang}`, label: t("nav.home") },
     { to: `/${lang}/rooms-apartments`, label: t("nav.rooms-apartments") },
+    { to: `/${lang}/experience`, label: t("nav.experience") },
     { to: `/${lang}/location`, label: t("nav.location") },
     { to: `/${lang}/contact`, label: t("nav.contact") },
   ];
