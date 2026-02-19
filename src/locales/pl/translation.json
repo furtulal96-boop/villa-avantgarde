@@ -115,5 +115,43 @@
     "sending": "Wysyłanie...",
     "success": "Wiadomość została wysłana!",
     "error": "Coś poszło nie tak, spróbuj ponownie."
+  },
+  "roomsPage": {
+    "pageTitle": "Pokoje & Apartamenty | Villa Avantgarde",
+    "pageDescription": "Luksusowe pokoje i apartamenty w Mlini blisko Dubrownika. Nowoczesny komfort, prywatność i elegancki design w Villa Avantgarde.",
+    "heroTitle": "Pokoje & Apartamenty",
+    "heroSubtitle": "Komfort, prywatność i elegancki design w Mlini.",
+    "introTitle": "Wyposażenie na Najwyższym Poziomie",
+    "introText1": "Naszym celem jest, aby goście nie czuli się jak w zwykłym hotelu, lecz jak w domu – z udogodnieniami premium i pełną prywatnością.",
+    "introText2": "Codzienne śniadanie, klimatyzacja, telewizor HD, dostęp do WiFi, prywatny parking i nowoczesne meble to tylko niektóre cechy, które zapewnią perfekcyjny pobyt.",
+    "amenities": {
+      "breakfast": "Śniadanie",
+      "airConditioning": "Klimatyzacja",
+      "hdTv": "Telewizor HD",
+      "wifi": "Darmowe WiFi",
+      "parking": "Parking"
+    },
+    "checkAvailability": "Sprawdź Dostępność →",
+    "double": "Pokój Dwuosobowy",
+    "doubleSize": "28 m²",
+    "doubleGuests": "2 Osoby",
+    "triple": "Pokój Trzyosobowy",
+    "tripleSize": "30 m²",
+    "tripleGuests": "3 Osoby",
+    "family": "Apartament Rodzinny",
+    "familySize": "35 m²",
+    "familyGuests": "4 Osoby",
+    "studio": "Apartament Studio",
+    "studioSize": "35 m²",
+    "studioGuests": "2 Osoby",
+    "oneBedroom": "Apartament Jednosypialniany",
+    "oneBedroomSize": "40 m²",
+    "oneBedroomGuests": "4 Osoby",
+    "twoBedroom": "Apartament Dwusypialniany",
+    "twoBedroomSize": "55 m²",
+    "twoBedroomGuests": "4 Osoby",
+    "superior": "Apartament Superior Dwusypialniany",
+    "superiorSize": "65 m²",
+    "superiorGuests": "4 Osoby"
   }
 }

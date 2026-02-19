@@ -130,5 +130,43 @@
     "sending": "Enviando...",
     "success": "¡Mensaje enviado con éxito!",
     "error": "Algo salió mal, por favor inténtalo de nuevo."
+  },
+  "roomsPage": {
+    "pageTitle": "Habitaciones & Apartamentos | Villa Avantgarde",
+    "pageDescription": "Habitaciones y apartamentos de lujo en Mlini cerca de Dubrovnik. Confort moderno, privacidad y diseño elegante en Villa Avantgarde.",
+    "heroTitle": "Habitaciones & Apartamentos",
+    "heroSubtitle": "Confort, privacidad y diseño elegante en Mlini.",
+    "introTitle": "Equipamiento de Alto Nivel",
+    "introText1": "Nuestro objetivo es que los huéspedes no sientan que están en un hotel normal, sino como en casa con servicios premium y total privacidad.",
+    "introText2": "Desayuno diario, aire acondicionado, TV HD, WiFi, estacionamiento privado y mobiliario moderno son solo algunas de las características que hacen su estancia perfecta.",
+    "amenities": {
+      "breakfast": "Desayuno",
+      "airConditioning": "Aire Acondicionado",
+      "hdTv": "TV HD",
+      "wifi": "WiFi Gratis",
+      "parking": "Estacionamiento"
+    },
+    "checkAvailability": "Comprobar Disponibilidad →",
+    "double": "Habitación Doble",
+    "doubleSize": "28 m²",
+    "doubleGuests": "2 Personas",
+    "triple": "Habitación Triple",
+    "tripleSize": "30 m²",
+    "tripleGuests": "3 Personas",
+    "family": "Suite Familiar",
+    "familySize": "35 m²",
+    "familyGuests": "4 Personas",
+    "studio": "Apartamento Estudio",
+    "studioSize": "35 m²",
+    "studioGuests": "2 Personas",
+    "oneBedroom": "Apartamento de Una Habitación",
+    "oneBedroomSize": "40 m²",
+    "oneBedroomGuests": "4 Personas",
+    "twoBedroom": "Apartamento de Dos Habitaciones",
+    "twoBedroomSize": "55 m²",
+    "twoBedroomGuests": "4 Personas",
+    "superior": "Apartamento Superior de Dos Habitaciones",
+    "superiorSize": "65 m²",
+    "superiorGuests": "4 Personas"
   }
 }

@@ -1,5 +1,6 @@
 import { Informations, ScrollToTop } from "../components";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 import {
   FaUserFriends,
   FaRulerCombined,
@@ -24,14 +25,58 @@ const bookingLink =
   "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543";
 
 const RommsApartments = () => {
+  const { t } = useTranslation();
+
+  const rooms = [
+    {
+      img: doubleImg,
+      titleKey: "roomsPage.double",
+      sizeKey: "roomsPage.doubleSize",
+      guestsKey: "roomsPage.doubleGuests",
+    },
+    {
+      img: tripleImg,
+      titleKey: "roomsPage.triple",
+      sizeKey: "roomsPage.tripleSize",
+      guestsKey: "roomsPage.tripleGuests",
+    },
+    {
+      img: familyImg,
+      titleKey: "roomsPage.family",
+      sizeKey: "roomsPage.familySize",
+      guestsKey: "roomsPage.familyGuests",
+    },
+    {
+      img: studioImg,
+      titleKey: "roomsPage.studio",
+      sizeKey: "roomsPage.studioSize",
+      guestsKey: "roomsPage.studioGuests",
+    },
+    {
+      img: oneBedroomImg,
+      titleKey: "roomsPage.oneBedroom",
+      sizeKey: "roomsPage.oneBedroomSize",
+      guestsKey: "roomsPage.oneBedroomGuests",
+    },
+    {
+      img: twoBedroomImg,
+      titleKey: "roomsPage.twoBedroom",
+      sizeKey: "roomsPage.twoBedroomSize",
+      guestsKey: "roomsPage.twoBedroomGuests",
+    },
+    {
+      img: superiorImg,
+      titleKey: "roomsPage.superior",
+      sizeKey: "roomsPage.superiorSize",
+      guestsKey: "roomsPage.superiorGuests",
+    },
+  ];
+
   return (
     <>
       <Helmet>
-        <title>Rooms & Apartments | Villa Avantgarde</title>
-        <meta
-          name="description"
-          content="Luxury rooms and apartments in Mlini near Dubrovnik. Modern comfort, privacy and elegant design at Villa Avantgarde."
-        />
+        <title>{t("roomsPage.pageTitle")}</title>
+        <meta name="description" content={t("roomsPage.pageDescription")} />
       </Helmet>
 
       <section>
@@ -45,11 +90,11 @@ const RommsApartments = () => {
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 text-center text-white px-6">
             <h1 className="text-3xl lg:text-5xl font-primary tracking-wide">
-              Rooms & Apartments
+              {t("roomsPage.heroTitle")}
             </h1>
             <div className="w-20 h-1 bg-white/80 mx-auto my-4 rounded-full" />
             <p className="text-sm lg:text-base opacity-90 max-w-xl mx-auto">
-              Comfort, privacy and elegant design in Mlini.
+              {t("roomsPage.heroSubtitle")}
             </p>
           </div>
         </div>
@@ -58,75 +103,46 @@ const RommsApartments = () => {
           {/* INTRO */}
           <div className="text-center max-w-4xl mx-auto space-y-6">
             <h2 className="text-3xl font-semibold">
-              Equipped to the Highest Standard
+              {t("roomsPage.introTitle")}
             </h2>
-
             <p className="text-gray-600 leading-relaxed">
-              Our aim is that our guests do not feel like staying in a regular
-              hotel, but more like staying in a home away from home — with
-              premium amenities and complete privacy.
+              {t("roomsPage.introText1")}
             </p>
-
             <p className="text-gray-600 leading-relaxed">
-              Daily breakfast, air-conditioning, HD TV, WiFi Internet access,
-              private parking and modern furniture are just some of the features
-              that make your stay perfect.
+              {t("roomsPage.introText2")}
             </p>
 
             {/* AMENITIES */}
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 pt-6">
-              <Amenity icon={<FaCoffee />} text="Breakfast" />
-              <Amenity icon={<FaSnowflake />} text="Air Conditioning" />
-              <Amenity icon={<FaTv />} text="HD TV" />
-              <Amenity icon={<FaWifi />} text="Free WiFi" />
-              <Amenity icon={<FaCar />} text="Parking" />
+              <Amenity
+                icon={<FaCoffee />}
+                text={t("roomsPage.amenities.breakfast")}
+              />
+              <Amenity
+                icon={<FaSnowflake />}
+                text={t("roomsPage.amenities.airConditioning")}
+              />
+              <Amenity icon={<FaTv />} text={t("roomsPage.amenities.hdTv")} />
+              <Amenity icon={<FaWifi />} text={t("roomsPage.amenities.wifi")} />
+              <Amenity
+                icon={<FaCar />}
+                text={t("roomsPage.amenities.parking")}
+              />
             </div>
           </div>
 
           {/* ROOMS GRID */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <RoomCard
-              img={doubleImg}
-              title="Double Room"
-              size="28 m²"
-              guests="2 Guests"
-            />
-            <RoomCard
-              img={tripleImg}
-              title="Triple Room"
-              size="30 m²"
-              guests="3 Guests"
-            />
-            <RoomCard
-              img={familyImg}
-              title="Family Suite"
-              size="35 m²"
-              guests="4 Guests"
-            />
-            <RoomCard
-              img={studioImg}
-              title="Studio Apartment"
-              size="35 m²"
-              guests="2 Guests"
-            />
-            <RoomCard
-              img={oneBedroomImg}
-              title="One Bedroom Apartment"
-              size="40 m²"
-              guests="4 Guests"
-            />
-            <RoomCard
-              img={twoBedroomImg}
-              title="Two Bedroom Apartment"
-              size="55 m²"
-              guests="4 Guests"
-            />
-            <RoomCard
-              img={superiorImg}
-              title="Superior Two Bedroom Apartment"
-              size="65 m²"
-              guests="4 Guests"
-            />
+            {rooms.map((room, idx) => (
+              <RoomCard
+                key={idx}
+                img={room.img}
+                title={t(room.titleKey)}
+                size={t(room.sizeKey)}
+                guests={t(room.guestsKey)}
+                t={t}
+              />
+            ))}
           </div>
         </div>
 
@@ -143,7 +159,7 @@ const Amenity = ({ icon, text }) => (
   </div>
 );
 
-const RoomCard = ({ img, title, size, guests }) => (
+const RoomCard = ({ img, title, size, guests, t }) => (
   <a
     href={bookingLink}
     target="_blank"
@@ -171,7 +187,7 @@ const RoomCard = ({ img, title, size, guests }) => (
         </div>
 
         <div className="mt-4 text-sm tracking-wide uppercase">
-          Check Availability →
+          {t("roomsPage.checkAvailability")}
         </div>
       </div>
     </div>

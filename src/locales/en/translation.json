@@ -137,5 +137,43 @@
     "harbor": "Mlini has a sweet little harbor, fish restaurants and cocktail bars, ideal if you want a nice meal and a couple of drinks overlooking the sea without the hustle and bustle of the bigger resorts. It’s about a 5 minute walk downhill from the villa and uphill coming back but well worth it.",
     "wellConnected": "Mlini is a great base for buses or water taxis going to Dubrovnik one way and Cavtat the other. It’s the best way to come into Dubrovnik Old City and if you get the direct boat it takes about 20 minutes along the coast. There are various boat excursions you can go on and all of these can be booked from Mlini, Cavtat or Dubrovnik. Sit and have a coffee or a drink in the little bar there while you wait for your boat to Dubrovnik Old City, compared by many people to Venice without canals.",
     "idealLocation": "There are a couple of small supermarkets about 200 meters from the villa which is very handy for quick shopping while the big supermarket is about a 10 min walk away. In the nearby of Villa Avantgarde there are a large mall, supermarket, green market, bakery, restaurants, bar, bank, post office, a pharmacy, seaside lungomare, children's playgrounds and parks. The beautiful beaches are mostly made of pebbles, but if you walk along the coast there are plenty of hidden spots to enjoy sandy beaches as well. Should you like to explore the picturesque lungomare of the bay, we invite you for a 1-km walk on the seaside lungomare connecting Srebreno and Mlini."
+  },
+  "roomsPage": {
+    "pageTitle": "Rooms & Apartments | Villa Avantgarde",
+    "pageDescription": "Luxury rooms and apartments in Mlini near Dubrovnik. Modern comfort, privacy and elegant design at Villa Avantgarde.",
+    "heroTitle": "Rooms & Apartments",
+    "heroSubtitle": "Comfort, privacy and elegant design in Mlini.",
+    "introTitle": "Equipped to the Highest Standard",
+    "introText1": "Our aim is that our guests do not feel like staying in a regular hotel, but more like staying in a home away from home — with premium amenities and complete privacy.",
+    "introText2": "Daily breakfast, air-conditioning, HD TV, WiFi Internet access, private parking and modern furniture are just some of the features that make your stay perfect.",
+    "amenities": {
+      "breakfast": "Breakfast",
+      "airConditioning": "Air Conditioning",
+      "hdTv": "HD TV",
+      "wifi": "Free WiFi",
+      "parking": "Parking"
+    },
+    "checkAvailability": "Check Availability →",
+    "double": "Double Room",
+    "doubleSize": "28 m²",
+    "doubleGuests": "2 Guests",
+    "triple": "Triple Room",
+    "tripleSize": "30 m²",
+    "tripleGuests": "3 Guests",
+    "family": "Family Suite",
+    "familySize": "35 m²",
+    "familyGuests": "4 Guests",
+    "studio": "Studio Apartment",
+    "studioSize": "35 m²",
+    "studioGuests": "2 Guests",
+    "oneBedroom": "One Bedroom Apartment",
+    "oneBedroomSize": "40 m²",
+    "oneBedroomGuests": "4 Guests",
+    "twoBedroom": "Two Bedroom Apartment",
+    "twoBedroomSize": "55 m²",
+    "twoBedroomGuests": "4 Guests",
+    "superior": "Superior Two Bedroom Apartment",
+    "superiorSize": "65 m²",
+    "superiorGuests": "4 Guests"
   }
 }
