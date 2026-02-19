@@ -157,5 +157,38 @@
     "superior": "Appartamento Superiore con Due Camere",
     "superiorSize": "65 m²",
     "superiorGuests": "4 Ospiti"
+  },
+  "locationPage": {
+    "heroTitle": "La Nostra Posizione",
+    "heroSubtitle": "Ritiro lussuoso e tranquillo a Mlini, Dubrovnik",
+    "introText1": "Villa Avantgarde si trova a Mlini, un affascinante villaggio sul mare vicino a Dubrovnik. Gli ospiti godono di un'atmosfera tranquilla restando vicini alle spiagge e al centro storico di Dubrovnik.",
+    "introText2": "La villa offre il perfetto equilibrio tra comfort, privacy e facile accesso alla vivace città di Dubrovnik.",
+    "introText3": "Vivi un soggiorno di lusso con servizi moderni, ambienti raffinati e un servizio eccezionale.",
+
+    "cards": {
+      "oldTown": {
+        "title": "Centro Storico di Dubrovnik",
+        "text": "15 minuti in auto dalla villa"
+      },
+      "beach": {
+        "title": "Spiaggia più Vicina",
+        "text": "5 minuti a piedi fino alla spiaggia sabbiosa"
+      },
+      "bus": {
+        "title": "Fermata Autobus",
+        "text": "Autobus frequenti per Dubrovnik ogni 30 minuti"
+      },
+      "airport": {
+        "title": "Aeroporto di Dubrovnik",
+        "text": "15 minuti in auto da Villa Avantgarde"
+      }
+    },
+
+    "meta": {
+      "title": "Villa Avantgarde Posizione | Mlini vicino a Dubrovnik",
+      "description": "Villa Avantgarde si trova a Mlini, un tranquillo villaggio sul mare vicino a Dubrovnik, vicino alle spiagge e a breve distanza in auto dal centro storico di Dubrovnik.",
+      "ogTitle": "Villa Avantgarde | Villa di Lusso a Mlini",
+      "ogDescription": "Soggiorna a Mlini vicino a Dubrovnik in una villa 4 stelle con piscina e colazione inclusa."
+    }
   }
 }

@@ -11,7 +11,7 @@ import {
   FaCar,
 } from "react-icons/fa";
 
-import heroImg from "../assets/img/location-beach.jpg";
+import heroImg from "../assets/img/triple-room.jpg";
 
 import doubleImg from "../assets/img/double-room.jpg";
 import tripleImg from "../assets/img/triple-room.jpg";

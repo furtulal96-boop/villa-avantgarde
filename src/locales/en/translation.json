@@ -175,5 +175,38 @@
     "superior": "Superior Two Bedroom Apartment",
     "superiorSize": "65 m²",
     "superiorGuests": "4 Guests"
+  },
+  "locationPage": {
+    "heroTitle": "Our Location",
+    "heroSubtitle": "Luxury and peaceful retreat in Mlini, Dubrovnik",
+    "introText1": "Villa Avantgarde is located in Mlini, a charming seaside village near Dubrovnik. Guests enjoy a peaceful atmosphere while staying close to beaches and Dubrovnik Old Town.",
+    "introText2": "The villa offers a perfect balance of comfort, privacy, and easy access to the vibrant city of Dubrovnik.",
+    "introText3": "Experience a luxurious stay with modern amenities, exquisite surroundings, and exceptional service.",
+
+    "cards": {
+      "oldTown": {
+        "title": "Dubrovnik Old Town",
+        "text": "15 minutes by car from the villa"
+      },
+      "beach": {
+        "title": "Nearest Beach",
+        "text": "5 minutes walk to the sandy shores"
+      },
+      "bus": {
+        "title": "Bus Stop",
+        "text": "Frequent buses to Dubrovnik every 30 minutes"
+      },
+      "airport": {
+        "title": "Dubrovnik Airport",
+        "text": "15 minutes by car from Villa Avantgarde"
+      }
+    },
+
+    "meta": {
+      "title": "Villa Avantgarde Location | Mlini near Dubrovnik",
+      "description": "Villa Avantgarde is located in Mlini, a peaceful seaside village near Dubrovnik, close to beaches and a short drive from Dubrovnik Old Town.",
+      "ogTitle": "Villa Avantgarde | Luxury Villa in Mlini",
+      "ogDescription": "Stay in Mlini near Dubrovnik in a 4-star villa with swimming pool and breakfast included."
+    }
   }
 }

@@ -31,4 +31,9 @@ export const sliderData = [
     bg: images.Slider3,
     btnNext: "See our rooms",
   },
+  {
+    id: 4,
+    bg: images.Slider4,
+    btnNext: "See our rooms",
+  },
 ];

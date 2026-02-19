@@ -96,7 +96,7 @@
   },
   "nav": {
     "home": "Strona główna",
-    "accommodation": "Zakwaterowanie",
+    "rooms-apartments": "Pokoje & Apartamenty",
     "location": "Lokalizacja",
     "contact": "Kontakt",
     "experience": "Doświadczenie"
@@ -153,5 +153,38 @@
     "superior": "Apartament Superior Dwusypialniany",
     "superiorSize": "65 m²",
     "superiorGuests": "4 Osoby"
+  },
+  "locationPage": {
+    "heroTitle": "Nasza Lokalizacja",
+    "heroSubtitle": "Luksusowy i spokojny wypoczynek w Mlinach, Dubrownik",
+    "introText1": "Villa Avantgarde znajduje się w Mlinach, uroczym nadmorskim miasteczku w pobliżu Dubrownika. Goście mogą cieszyć się spokojną atmosferą, będąc blisko plaż i Starego Miasta Dubrownika.",
+    "introText2": "Willa oferuje idealną równowagę między komfortem, prywatnością a łatwym dostępem do tętniącego życiem miasta Dubrownik.",
+    "introText3": "Doświadcz luksusowego pobytu z nowoczesnymi udogodnieniami, wyjątkowym otoczeniem i doskonałą obsługą.",
+
+    "cards": {
+      "oldTown": {
+        "title": "Stare Miasto Dubrownik",
+        "text": "15 minut samochodem od willi"
+      },
+      "beach": {
+        "title": "Najbliższa Plaża",
+        "text": "5 minut pieszo do piaszczystego wybrzeża"
+      },
+      "bus": {
+        "title": "Przystanek Autobusowy",
+        "text": "Częste autobusy do Dubrownika co 30 minut"
+      },
+      "airport": {
+        "title": "Lotnisko Dubrownik",
+        "text": "15 minut samochodem od Villa Avantgarde"
+      }
+    },
+
+    "meta": {
+      "title": "Villa Avantgarde Lokalizacja | Mlini koło Dubrownika",
+      "description": "Villa Avantgarde znajduje się w Mlinach, spokojnej nadmorskiej wiosce w pobliżu Dubrownika, blisko plaż i krótki dojazd do Starego Miasta.",
+      "ogTitle": "Villa Avantgarde | Luksusowa Villa w Mlinach",
+      "ogDescription": "Zatrzymaj się w Mlinach w pobliżu Dubrownika w willi 4-gwiazdkowej z basenem i wliczonym śniadaniem."
+    }
   }
 }
