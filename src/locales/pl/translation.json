@@ -84,7 +84,12 @@
         "text": "Bezpośrednie połączenie z centrum miasta"
       },
       "airport": { "title": "Lotnisko", "text": "25 minut samochodem" }
-    }
+    },
+
+    "firstDescription": "Villa Avantgarde znajduje się w Mlini, letnim kurorcie Riwiery Dubrownickiej, zaledwie 7 mil od Starego Miasta w Dubrowniku i 6 mil od lotniska w Dubrowniku, w okolicy bogatej w śródziemnomorską roślinność, piękne piaszczyste plaże i malownicze krajobrazy.",
+    "secondDescription": "Jeśli marzą Państwo o spokojnych wakacjach z możliwością korzystania ze wszystkich wydarzeń w Dubrowniku, Mlini to idealne miejsce dla Państwa.",
+    "thirdDescription": "Lokalizacja Villa Avantgarde jest idealna – przystanek autobusowy znajduje się zaledwie 100 metrów spacerem od naszych pokoi i apartamentów. Autobusy do Dubrownika kursują co pół godziny, a podróż trwa około 15 minut (linia 10). Autobus numer 10 kursuje również w kierunku Cavtat i podróż trwa około 15 minut. W willi znajduje się 6 apartamentów i 6 pokoi, zaprojektowanych w unikalnych i kolorowych stylach, oferujących wszystkie udogodnienia typowe dla wysokiej klasy hotelu 4-gwiazdkowego.",
+    "4thDescription": "Mlini posiada urokliwy mały port, restauracje rybne i bary koktajlowe – idealne miejsce na smaczny posiłek i drinka z widokiem na morze, bez zgiełku większych kurortów. To około 5 minut spacerem w dół od willi (i pod górę w drodze powrotnej), ale zdecydowanie warto."
   },
   "bookForm": {
     "submitButton": "Sprawdź dostępność"

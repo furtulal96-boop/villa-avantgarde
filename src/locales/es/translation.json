@@ -97,7 +97,12 @@
         "title": "Aeropuerto de Dubrovnik",
         "text": "15 minutos en coche"
       }
-    }
+    },
+
+    "firstDescription": "Villa Avantgarde se encuentra en Mlini, un destino de verano en la Riviera de Dubrovnik, a solo 7 millas del casco antiguo de Dubrovnik y 6 millas del aeropuerto de Dubrovnik, en una zona rica en vegetación mediterránea, hermosas playas de arena y paisajes pintorescos.",
+    "secondDescription": "Si busca unas vacaciones tranquilas con la posibilidad de disfrutar de todos los eventos de Dubrovnik, Mlini es el lugar perfecto para usted.",
+    "thirdDescription": "La ubicación de Villa Avantgarde es ideal: la parada de autobús se encuentra a solo 100 metros a pie de nuestras habitaciones y apartamentos, con autobuses hacia Dubrovnik cada media hora; el trayecto dura aproximadamente 15 minutos (línea 10). El autobús número 10 también va en dirección a Cavtat y tarda unos 15 minutos. Dentro de la villa hay 6 apartamentos y 6 habitaciones, diseñados en estilos únicos y coloridos, con todas las comodidades de un hotel de 4 estrellas de alto nivel.",
+    "4thDescription": "Mlini cuenta con un encantador pequeño puerto, restaurantes de pescado y bares de cócteles, ideales para disfrutar de una buena comida y una bebida con vistas al mar sin el bullicio de los grandes complejos turísticos. Está a unos 5 minutos a pie cuesta abajo desde la villa (y cuesta arriba al regresar), pero realmente vale la pena."
   },
   "bookForm": {
     "submitButton": "Comprobar disponibilidad"

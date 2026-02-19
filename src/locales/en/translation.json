@@ -97,7 +97,11 @@
         "title": "Dubrovnik Airport",
         "text": "15 minutes drive"
       }
-    }
+    },
+    "firstDescription": "Villa Avantgarde is located in Mlini, a Dubrovnik riviera summer resort only 7 miles from Dubrovnik Old City and only 6 miles from the Dubrovnik Airport, located in the area rich in Mediterranean vegetation, beautiful sandy beaches and picturesque surroundings.",
+    "secondDescription": "If you are up for a quiet vacation, with a possibility to enjoy all Dubrovnik events, Mlini is the perfect place for you.",
+    "thirdDescription": "The location of Villa Avantgarde is ideal, the bus stop is 100 metres walk from our rooms and apartments with buses going to Dubrovnik every half an hour, the journey takes about 15 minutes (Bus number 10) – the number 10 bus also goes the other way to Cavat and that takes about 15 minutes too. Inside the villa you have 6 apartments and 6 rooms, designed in unique and colorful styles having all amenities you would usually find in an upscale 4 star hotel.",
+    "4thDescription": "Mlini has a sweet little harbor, fish restaurants and cocktail bars, ideal if you want a nice meal and a couple of drinks overlooking the sea without the hustle and bustle of the bigger resorts. It’s about a 5 minute walk downhill from the villa and uphill coming back but well worth it."
   },
   "bookForm": {
     "submitButton": "Check Availability"
@@ -124,5 +128,13 @@
     "sending": "Sending...",
     "success": "Message sent successfully!",
     "error": "Something went wrong, please try again."
+  },
+  "villaLocation": {
+    "intro": "Villa Avantgarde is located in Mlini, a Dubrovnik riviera summer resort only 7 miles from Dubrovnik Old City and only 6 miles from the Dubrovnik Airport, located in the area rich in Mediterranean vegetation, beautiful sandy beaches and picturesque surroundings.",
+    "quietVacation": "If you are up for a quiet vacation, with a possibility to enjoy all Dubrovnik events, Mlini is the perfect place for you.",
+    "transport": "The location of Villa Avantgarde is ideal, the bus stop is 100 metres walk from our rooms and apartments with buses going to Dubrovnik every half an hour, the journey takes about 15 minutes (Bus number 10) – the number 10 bus also goes the other way to Cavat and that takes about 15 minutes too. Inside the villa you have 6 apartments and 6 rooms, designed in unique and colorful styles having all amenities you would usually find in an upscale 4 star hotel.",
+    "harbor": "Mlini has a sweet little harbor, fish restaurants and cocktail bars, ideal if you want a nice meal and a couple of drinks overlooking the sea without the hustle and bustle of the bigger resorts. It’s about a 5 minute walk downhill from the villa and uphill coming back but well worth it.",
+    "wellConnected": "Mlini is a great base for buses or water taxis going to Dubrovnik one way and Cavtat the other. It’s the best way to come into Dubrovnik Old City and if you get the direct boat it takes about 20 minutes along the coast. There are various boat excursions you can go on and all of these can be booked from Mlini, Cavtat or Dubrovnik. Sit and have a coffee or a drink in the little bar there while you wait for your boat to Dubrovnik Old City, compared by many people to Venice without canals.",
+    "idealLocation": "There are a couple of small supermarkets about 200 meters from the villa which is very handy for quick shopping while the big supermarket is about a 10 min walk away. In the nearby of Villa Avantgarde there are a large mall, supermarket, green market, bakery, restaurants, bar, bank, post office, a pharmacy, seaside lungomare, children's playgrounds and parks. The beautiful beaches are mostly made of pebbles, but if you walk along the coast there are plenty of hidden spots to enjoy sandy beaches as well. Should you like to explore the picturesque lungomare of the bay, we invite you for a 1-km walk on the seaside lungomare connecting Srebreno and Mlini."
   }
 }
