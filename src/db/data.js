@@ -1,88 +1,48 @@
-import images from "../assets";
+import poolImg from "../assets/img/gallery/pool-view.jpg";
+import doubleRoom from "../assets/img/gallery/double-room-05.jpg";
+import kitchenRed from "../assets/img/gallery/kitchen-red.jpg";
+import redBed from "../assets/img/gallery/redbed.jpg";
+import greenRoom from "../assets/img/gallery/green-room.jpg";
+import breakFastImg from "../assets/img/gallery/breakfast.jpg";
+import tableApartment from "../assets/img/gallery/apartment-table.jpg";
+import outsideTable from "../assets/img/gallery/outside-tableview.jpg";
+import tripleRoom from "../assets/img/gallery/triple-room.jpg";
 
 export const roomData = [
   {
     id: 1,
-    image: images.BuildingInside,
+    image: poolImg,
   },
   {
     id: 2,
-    image: images.Room2Img,
+    image: doubleRoom,
   },
   {
     id: 3,
-    image: images.roomView,
+    image: kitchenRed,
   },
   {
-    id: 19,
-    image: images.DorucakImg,
+    id: 4,
+    image: redBed,
   },
   {
     id: 5,
-    image: images.Room3Img,
+    image: greenRoom,
   },
   {
     id: 6,
-    image: images.Room6Img,
+    image: breakFastImg,
   },
   {
-    id: 10,
-    image: images.Room10Img,
+    id: 7,
+    image: tableApartment,
   },
   {
-    id: 11,
-    image: images.Room11Img,
+    id: 8,
+    image: outsideTable,
   },
   {
-    id: 12,
-    image: images.Room12Img,
-  },
-  {
-    id: 14,
-    image: images.Room14Img,
-  },
-  {
-    id: 15,
-    image: images.Room15Img,
-  },
-  {
-    id: 16,
-    image: images.Room16Img,
-  },
-  {
-    id: 17,
-    image: images.Room17Img,
-  },
-  {
-    id: 18,
-    image: images.Room18Img,
-  },
-  {
-    id: 21,
-    image: images.Room21Img,
-  },
-  {
-    id: 22,
-    image: images.Room22Img,
-  },
-  {
-    id: 23,
-    image: images.Room23Img,
-  },
-  {
-    id: 24,
-    image: images.Room24Img,
-  },
-  {
-    id: 25,
-    image: images.Room25Img,
-  },
-  {
-    id: 26,
-    image: images.Room26Img,
-  },
-  {
-    id: 27,
-    image: images.Room27Img,
+    id: 9,
+    image: tripleRoom,
   },
 ];

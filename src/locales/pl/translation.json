@@ -186,5 +186,11 @@
       "ogTitle": "Villa Avantgarde | Luksusowa Villa w Mlinach",
       "ogDescription": "Zatrzymaj się w Mlinach w pobliżu Dubrownika w willi 4-gwiazdkowej z basenem i wliczonym śniadaniem."
     }
+  },
+  "galleryPage": {
+    "gallery": "Galeria Pokoi",
+    "gallerySubtitle": "Odkryj luksus i komfort naszych pokoi i apartamentów",
+    "guests": "gości",
+    "checkAvailability": "Sprawdź dostępność"
   }
 }

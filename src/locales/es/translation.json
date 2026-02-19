@@ -201,5 +201,11 @@
       "ogTitle": "Villa Avantgarde | Villa de Lujo en Mlini",
       "ogDescription": "Hospédese en Mlini cerca de Dubrovnik en una villa de 4 estrellas con piscina y desayuno incluido."
     }
+  },
+  "galleryPage": {
+    "gallery": "Galería de Habitaciones",
+    "gallerySubtitle": "Explora el lujo y confort de nuestras habitaciones y apartamentos",
+    "guests": "huéspedes",
+    "checkAvailability": "Comprobar disponibilidad"
   }
 }

@@ -1,9 +1,9 @@
 import {
   BookForm,
   HeroSlider,
-  Rooms,
   ScrollToTop,
   Informations,
+  Gallery,
 } from "../components";
 import { Helmet } from "react-helmet";
 import introImg from "../assets/img/room.jpg";
@@ -85,7 +85,7 @@ const Home = () => {
           </div>
         </section>
 
-        <Rooms />
+        <Gallery />
         <Informations />
       </div>
     </>
