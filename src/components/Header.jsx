@@ -87,7 +87,7 @@ const Header = () => {
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-x-8">
           <nav
-            className={`flex gap-x-8 font-tertiary tracking-[2px] text-[14px] uppercase ${
+            className={`flex gap-x-8 font-tertiary tracking-[2px] text-[18px] uppercase ${
               header ? "text-primary" : "text-white"
             }`}
           >
