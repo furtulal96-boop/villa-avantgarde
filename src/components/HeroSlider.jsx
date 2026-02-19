@@ -23,9 +23,9 @@ const HeroSlider = () => {
         >
           <div className="z-20 text-white text-center">
             <div className="font-tertiary tracking-[6px] mb-5">
-              Eluize Inn
+              Villa
               <br />
-              Dubrovnik
+              Avantgarde
             </div>
           </div>
 

@@ -1,46 +1,47 @@
 {
   "meta": {
-    "title": "Eluize Inn Apartments Dubrovnik | Lapad Accommodation",
-    "description": "Modern 1 and 2 bedroom apartments in Dubrovnik Lapad near Old Town and beaches. Book direct for best price guarantee."
+    "title": "Villa Avantgarde | 4 Stars Villa in Mlini, Dubrovnik",
+    "description": "4 stars Villa Avantgarde in Mlini near Dubrovnik with swimming pool and breakfast included. Peaceful location close to Dubrovnik Old Town. Book direct for best price guarantee."
   },
   "home": {
-    "h1": "Apartments in Dubrovnik – Eluize Inn",
-    "intro": "Modern accommodation in Dubrovnik Lapad, near beaches and Old Town. Ideal for couples and families seeking comfort and location."
+    "h1": "Villa Avantgarde | 4★ Villa",
+    "intro": "Villa Avantgarde is a 4 stars villa in Mlini, near Dubrovnik, offering elegant rooms and suites with breakfast included and a beautiful outdoor swimming pool. Ideal for couples and families seeking comfort, privacy and a peaceful location close to Dubrovnik."
   },
   "address": {
-    "city": "Dubrovnik",
+    "city": "Mlini, Dubrovnik",
     "country": "HR"
   },
   "amenities": {
     "wifi": "Free WiFi",
-    "parking": "Parking",
-    "breakfast": "Breakfast"
+    "parking": "Free Private Parking",
+    "breakfast": "Breakfast Included",
+    "pool": "Outdoor Swimming Pool"
   },
   "accomodation": {
-    "pageTitle": "Accommodation | Eluize Inn Apartments",
-    "h2": "Comfortable Stays for Everyone",
-    "intro1": "Most of all units include a fully equipped kitchen, allowing guests to prepare their own meals.",
-    "intro2": "Perfect for couples or families because each unit has two bathrooms and, in living room, convertible sofa bed is available if needed.",
+    "pageTitle": "Accommodation | Villa Avantgarde",
+    "h2": "Elegant 4★ Accommodation with Pool & Breakfast",
+    "intro1": "Villa Avantgarde offers stylish rooms and suites designed for comfort and relaxation, with breakfast included for all guests.",
+    "intro2": "Guests can enjoy the outdoor swimming pool, peaceful surroundings and easy access to Dubrovnik and nearby beaches in Mlini.",
     "highlightsTitle": "Highlights",
     "highlights": {
-      "wifi": "Free Wi-Fi in all units",
+      "wifi": "Free Wi-Fi in all rooms and suites",
       "parking": "Free private parking on site",
-      "airConditioning": "Two Air conditioning units per apartment",
-      "kitchen": "Fully equipped kitchens",
-      "livingRoom": "Living room with sofa",
-      "bathrooms": "Two bathrooms per unit"
+      "airConditioning": "Air conditioning in all units",
+      "breakfast": "Daily breakfast included",
+      "pool": "Outdoor swimming pool with sun terrace",
+      "location": "Peaceful location in Mlini near Dubrovnik"
     },
     "suites": [
       {
-        "title": "Double Bedroom Suite with Balcony",
+        "title": "Double Room with Balcony",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853"
       },
       {
-        "title": "Triple Bedroom Suite",
+        "title": "Superior Double Room",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
       },
       {
-        "title": "One Bedroom Apartment with Balcony",
+        "title": "Junior Suite",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
       },
       {
@@ -50,55 +51,55 @@
     ]
   },
   "contact": {
-    "heroTitle": "Contact Us",
+    "heroTitle": "Contact Villa Avantgarde",
     "getInTouch": "Get in touch",
-    "intro": "We'd love to hear from you! Please fill out the form or contact us using the details below.",
+    "intro": "We’d love to welcome you to Villa Avantgarde. Please contact us directly for reservations, special offers or additional information.",
     "address": {
-      "street": "Iva Dulčića 20/C",
-      "city": "20000 Dubrovnik"
+      "street": "Put Bruna Bušića 33",
+      "city": "20207 Mlini, Dubrovnik"
     },
     "phone": {
-      "label": "Phone",
+      "label": "Mobile",
       "numbers": ["+385995263114", "+385992435616"]
     },
     "email": {
       "label": "Email",
-      "address": "info@eluize-inn.com"
+      "address": "info@villaavantgarde.com"
     },
-    "mapTitle": "Eluize Dubrovnik Location",
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+    "mapTitle": "Villa Avantgarde Location – Mlini",
+    "mapUrl": "https://www.google.com/maps?q=Put+Bruna+Busica+33,+20207+Mlini,+Dubrovnik&output=embed"
   },
   "location": {
     "meta": {
-      "title": "Our Location in Dubrovnik | Eluize Inn Apartments",
-      "description": "Eluize Inn is located in Lapad, Dubrovnik, close to beaches and the Old Town. Ideal location for couples and families.",
-      "ogTitle": "Our Location in Dubrovnik | Eluize Inn",
-      "ogDescription": "Stay in Lapad, Dubrovnik near beaches and Old Town. Perfect location for your holiday."
+      "title": "Villa Avantgarde Location | Mlini near Dubrovnik",
+      "description": "Villa Avantgarde is located in Mlini, a peaceful seaside village near Dubrovnik, close to beaches and only a short drive from Dubrovnik Old Town.",
+      "ogTitle": "Villa Avantgarde | 4★ Villa in Mlini",
+      "ogDescription": "Stay in Mlini near Dubrovnik in a 4 stars villa with swimming pool and breakfast included."
     },
     "heroTitle": "Our Location",
-    "areaTitle": "Lapad, Dubrovnik",
-    "areaDescription": "Lapad is one of the most beautiful and peaceful areas of Dubrovnik, known for its beaches, promenade, restaurants, and easy access to the Old Town.",
+    "areaTitle": "Mlini, Dubrovnik",
+    "areaDescription": "Mlini is a charming seaside village near Dubrovnik, known for its beautiful beaches, crystal-clear sea and peaceful atmosphere. It offers the perfect balance between relaxation and easy access to Dubrovnik Old Town.",
     "cards": {
       "oldTown": {
-        "title": "Old Town",
-        "text": "10 minutes by car"
+        "title": "Dubrovnik Old Town",
+        "text": "15 minutes by car"
       },
       "beach": {
         "title": "Nearest Beach",
         "text": "5 minutes walking"
       },
       "bus": {
-        "title": "Bus Station",
-        "text": "Direct connection to city center"
+        "title": "Bus Stop",
+        "text": "Direct connection to Dubrovnik"
       },
       "airport": {
-        "title": "Airport",
-        "text": "25 minutes drive"
+        "title": "Dubrovnik Airport",
+        "text": "15 minutes drive"
       }
     }
   },
   "bookForm": {
-    "submitButton": "Check Now"
+    "submitButton": "Check Availability"
   },
   "nav": {
     "home": "Home",

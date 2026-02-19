@@ -1,46 +1,47 @@
 {
   "meta": {
-    "title": "Eluize Inn Apartments Dubrovnik | Unterkunft in Lapad",
-    "description": "Moderne 1- und 2-Zimmer-Apartments in Dubrovnik Lapad, nahe der Altstadt und den Stränden. Direkt buchen für den besten Preis."
+    "title": "Villa Avantgarde | 4★ Villa mit Pool in Mlini bei Dubrovnik",
+    "description": "Villa Avantgarde ist eine 4-Sterne-Villa in Mlini bei Dubrovnik mit Außenpool und Frühstück inklusive. Ruhige Lage nahe Dubrovnik Altstadt. Direkt buchen zum besten Preis."
   },
   "home": {
-    "h1": "Apartments in Dubrovnik – Eluize Inn",
-    "intro": "Moderne Unterkunft in Dubrovnik Lapad, nahe Stränden und Altstadt. Ideal für Paare und Familien, die Komfort und Lage suchen."
+    "h1": "Villa Avantgarde | 4★ Villa mit Pool",
+    "intro": "Villa Avantgarde ist eine 4-Sterne-Villa in Mlini bei Dubrovnik und bietet elegante Zimmer und Suiten mit Frühstück inklusive sowie einen schönen Außenpool. Ideal für Paare und Familien, die Komfort, Privatsphäre und eine ruhige Lage nahe Dubrovnik suchen."
   },
   "address": {
-    "city": "Dubrovnik",
+    "city": "Mlini, Dubrovnik",
     "country": "HR"
   },
   "amenities": {
     "wifi": "Kostenloses WLAN",
-    "parking": "Parkplatz",
-    "breakfast": "Frühstück"
+    "parking": "Kostenlose Privatparkplätze",
+    "breakfast": "Frühstück inklusive",
+    "pool": "Außenpool"
   },
   "accomodation": {
-    "pageTitle": "Unterkunft | Eluize Inn Apartments",
-    "h2": "Komfortable Aufenthalte für alle",
-    "intro1": "Die meisten Einheiten verfügen über eine voll ausgestattete Küche, sodass Gäste ihre eigenen Mahlzeiten zubereiten können.",
-    "intro2": "Perfekt für Paare oder Familien, da jede Einheit zwei Badezimmer hat und im Wohnzimmer ein ausziehbares Schlafsofa bei Bedarf zur Verfügung steht.",
+    "pageTitle": "Unterkunft | Villa Avantgarde",
+    "h2": "Elegante 4★ Unterkunft mit Pool & Frühstück",
+    "intro1": "Villa Avantgarde bietet stilvolle Zimmer und Suiten, die auf Komfort und Entspannung ausgelegt sind. Das Frühstück ist für alle Gäste inklusive.",
+    "intro2": "Genießen Sie den Außenpool, die ruhige Umgebung von Mlini und die schnelle Anbindung an Dubrovnik und die nahegelegenen Strände.",
     "highlightsTitle": "Highlights",
     "highlights": {
-      "wifi": "Kostenloses WLAN in allen Einheiten",
-      "parking": "Kostenloser Privatparkplatz vor Ort",
-      "airConditioning": "Zwei Klimaanlagen pro Apartment",
-      "kitchen": "Voll ausgestattete Küchen",
-      "livingRoom": "Wohnzimmer mit Sofa",
-      "bathrooms": "Zwei Badezimmer pro Einheit"
+      "wifi": "Kostenloses WLAN in allen Zimmern und Suiten",
+      "parking": "Kostenlose Privatparkplätze vor Ort",
+      "airConditioning": "Klimaanlage in allen Einheiten",
+      "breakfast": "Tägliches Frühstück inklusive",
+      "pool": "Außenpool mit Sonnenterrasse",
+      "location": "Ruhige Lage in Mlini nahe Dubrovnik"
     },
     "suites": [
       {
-        "title": "Doppelzimmer Suite mit Balkon",
+        "title": "Doppelzimmer mit Balkon",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853"
       },
       {
-        "title": "Dreibettzimmer Suite",
+        "title": "Superior Doppelzimmer",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
       },
       {
-        "title": "Einzimmer Apartment mit Balkon",
+        "title": "Junior Suite",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
       },
       {
@@ -50,45 +51,60 @@
     ]
   },
   "contact": {
-    "heroTitle": "Kontaktieren Sie uns",
-    "getInTouch": "Nehmen Sie Kontakt auf",
-    "intro": "Wir würden uns freuen, von Ihnen zu hören! Bitte füllen Sie das Formular aus oder kontaktieren Sie uns über die untenstehenden Angaben.",
-    "address": { "street": "Iva Dulčića 20/C", "city": "20000 Dubrovnik" },
+    "heroTitle": "Kontakt Villa Avantgarde",
+    "getInTouch": "Kontakt aufnehmen",
+    "intro": "Wir freuen uns darauf, Sie in der Villa Avantgarde willkommen zu heißen. Kontaktieren Sie uns direkt für Reservierungen, Sonderangebote oder weitere Informationen.",
+    "address": {
+      "street": "Put Bruna Bušića 33",
+      "city": "20207 Mlini, Dubrovnik"
+    },
     "phone": {
-      "label": "Telefon",
+      "label": "Mobil",
       "numbers": ["+385995263114", "+385992435616"]
     },
-    "email": { "label": "E-Mail", "address": "info@eluize-inn.com" },
-    "mapTitle": "Eluize Dubrovnik Standort",
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+    "email": {
+      "label": "E-Mail",
+      "address": "info@villaavantgarde.com"
+    },
+    "mapTitle": "Villa Avantgarde Standort – Mlini",
+    "mapUrl": "https://www.google.com/maps?q=Put+Bruna+Busica+33,+20207+Mlini,+Dubrovnik&output=embed"
   },
   "location": {
     "meta": {
-      "title": "Unsere Lage in Dubrovnik | Eluize Inn Apartments",
-      "description": "Eluize Inn liegt in Lapad, Dubrovnik, in der Nähe von Stränden und Altstadt. Ideale Lage für Paare und Familien.",
-      "ogTitle": "Unsere Lage in Dubrovnik | Eluize Inn",
-      "ogDescription": "Bleiben Sie in Lapad, Dubrovnik, nahe Stränden und Altstadt. Perfekte Lage für Ihren Urlaub."
+      "title": "Lage der Villa Avantgarde | Mlini bei Dubrovnik",
+      "description": "Die Villa Avantgarde befindet sich in Mlini, einem ruhigen Küstenort nahe Dubrovnik, in der Nähe von Stränden und nur wenige Minuten von der Altstadt Dubrovnik entfernt.",
+      "ogTitle": "Villa Avantgarde | 4★ Villa in Mlini",
+      "ogDescription": "Übernachten Sie in einer 4-Sterne-Villa mit Pool und Frühstück inklusive in Mlini bei Dubrovnik."
     },
     "heroTitle": "Unsere Lage",
-    "areaTitle": "Lapad, Dubrovnik",
-    "areaDescription": "Lapad ist eines der schönsten und ruhigsten Viertel von Dubrovnik, bekannt für seine Strände, Promenade, Restaurants und den einfachen Zugang zur Altstadt.",
+    "areaTitle": "Mlini bei Dubrovnik",
+    "areaDescription": "Mlini ist ein charmantes Küstendorf nahe Dubrovnik, bekannt für seine schönen Strände, das kristallklare Meer und die ruhige Atmosphäre. Perfekte Kombination aus Erholung und schneller Anbindung an die Altstadt von Dubrovnik.",
     "cards": {
-      "oldTown": { "title": "Altstadt", "text": "10 Minuten mit dem Auto" },
-      "beach": { "title": "Nächster Strand", "text": "5 Minuten zu Fuß" },
-      "bus": {
-        "title": "Busbahnhof",
-        "text": "Direkte Verbindung zum Stadtzentrum"
+      "oldTown": {
+        "title": "Altstadt Dubrovnik",
+        "text": "15 Minuten mit dem Auto"
       },
-      "airport": { "title": "Flughafen", "text": "25 Minuten Fahrt" }
+      "beach": {
+        "title": "Nächster Strand",
+        "text": "5 Minuten zu Fuß"
+      },
+      "bus": {
+        "title": "Bushaltestelle",
+        "text": "Direkte Verbindung nach Dubrovnik"
+      },
+      "airport": {
+        "title": "Flughafen Dubrovnik",
+        "text": "15 Minuten Fahrt"
+      }
     }
   },
   "bookForm": {
-    "submitButton": "Jetzt prüfen"
+    "submitButton": "Verfügbarkeit prüfen"
   },
   "nav": {
     "home": "Startseite",
     "accommodation": "Unterkunft",
-    "location": "Standort",
+    "location": "Lage",
     "contact": "Kontakt"
   },
   "rooms": {
@@ -104,8 +120,8 @@
     "message": "Nachricht",
     "messagePlaceholder": "Hinterlassen Sie uns eine Nachricht...",
     "submit": "Nachricht senden",
-    "sending": "Senden...",
+    "sending": "Wird gesendet...",
     "success": "Nachricht erfolgreich gesendet!",
-    "error": "Etwas ist schief gelaufen, bitte versuchen Sie es erneut."
+    "error": "Etwas ist schiefgelaufen, bitte versuchen Sie es erneut."
   }
 }

@@ -1,34 +1,34 @@
 {
   "meta": {
-    "title": "Eluize Inn Appartements Dubrovnik | Hébergement à Lapad",
-    "description": "Appartements modernes de 1 et 2 chambres à Dubrovnik Lapad, près de la vieille ville et des plages. Réservez directement pour garantir le meilleur prix."
+    "title": "Villa Avantgarde Dubrovnik | Hébergement à Lapad",
+    "description": "Appartements modernes d'une et deux chambres à Dubrovnik, dans le quartier de Lapad, près des plages et de la vieille ville. Réservez en direct pour garantir le meilleur prix."
   },
   "home": {
-    "h1": "Appartements à Dubrovnik – Eluize Inn",
-    "intro": "Hébergement moderne à Dubrovnik Lapad, près des plages et de la vieille ville. Idéal pour les couples et les familles recherchant confort et emplacement."
+    "h1": "Appartements à Dubrovnik – Villa Avantgarde",
+    "intro": "Hébergement moderne à Dubrovnik, dans le quartier de Lapad, à proximité des plages et de la vieille ville. Idéal pour les couples et les familles à la recherche de confort et d’un excellent emplacement."
   },
   "address": {
     "city": "Dubrovnik",
-    "country": "HR"
+    "country": "Croatie"
   },
   "amenities": {
     "wifi": "Wi-Fi gratuit",
-    "parking": "Parking",
+    "parking": "Parking gratuit",
     "breakfast": "Petit-déjeuner"
   },
   "accomodation": {
-    "pageTitle": "Hébergement | Eluize Inn Apartments",
-    "h2": "Séjours confortables pour tous",
-    "intro1": "La plupart des unités comprennent une cuisine entièrement équipée, permettant aux clients de préparer leurs propres repas.",
-    "intro2": "Parfait pour les couples ou les familles, chaque unité dispose de deux salles de bain et, dans le salon, d'un canapé-lit convertible si nécessaire.",
+    "pageTitle": "Hébergement | Villa Avantgarde Dubrovnik",
+    "h2": "Des séjours confortables pour tous",
+    "intro1": "La plupart des logements comprennent une cuisine entièrement équipée, permettant aux clients de préparer leurs propres repas.",
+    "intro2": "Parfait pour les couples ou les familles, chaque logement dispose de deux salles de bains et d’un canapé-lit dans le salon si nécessaire.",
     "highlightsTitle": "Points forts",
     "highlights": {
-      "wifi": "Wi-Fi gratuit dans toutes les unités",
+      "wifi": "Wi-Fi gratuit dans tous les logements",
       "parking": "Parking privé gratuit sur place",
       "airConditioning": "Deux unités de climatisation par appartement",
       "kitchen": "Cuisines entièrement équipées",
       "livingRoom": "Salon avec canapé",
-      "bathrooms": "Deux salles de bain par unité"
+      "bathrooms": "Deux salles de bains par logement"
     },
     "suites": [
       {
@@ -40,7 +40,7 @@
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
       },
       {
-        "title": "Appartement une chambre avec balcon",
+        "title": "Appartement d’une chambre avec balcon",
         "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
       },
       {
@@ -51,32 +51,38 @@
   },
   "contact": {
     "heroTitle": "Contactez-nous",
-    "getInTouch": "Prenez contact",
-    "intro": "Nous serions ravis d'avoir de vos nouvelles ! Veuillez remplir le formulaire ou nous contacter via les coordonnées ci-dessous.",
-    "address": { "street": "Iva Dulčića 20/C", "city": "20000 Dubrovnik" },
+    "getInTouch": "Entrer en contact",
+    "intro": "Nous serions ravis d’avoir de vos nouvelles ! Veuillez remplir le formulaire ou nous contacter via les coordonnées ci-dessous.",
+    "address": {
+      "street": "Iva Dulčića 20/C",
+      "city": "20000 Dubrovnik, Croatie"
+    },
     "phone": {
       "label": "Téléphone",
       "numbers": ["+385995263114", "+385992435616"]
     },
-    "email": { "label": "E-mail", "address": "info@eluize-inn.com" },
-    "mapTitle": "Emplacement d'Eluize Dubrovnik",
+    "email": {
+      "label": "E-mail",
+      "address": "info@eluize-inn.com"
+    },
+    "mapTitle": "Emplacement de Villa Avantgarde Dubrovnik",
     "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
   },
   "location": {
     "meta": {
-      "title": "Notre emplacement à Dubrovnik | Eluize Inn Apartments",
-      "description": "Eluize Inn est situé à Lapad, Dubrovnik, proche des plages et de la vieille ville. Emplacement idéal pour les couples et les familles.",
-      "ogTitle": "Notre emplacement à Dubrovnik | Eluize Inn",
-      "ogDescription": "Séjournez à Lapad, Dubrovnik, près des plages et de la vieille ville. Emplacement parfait pour vos vacances."
+      "title": "Emplacement à Dubrovnik | Villa Avantgarde",
+      "description": "Villa Avantgarde est située à Lapad, Dubrovnik, à proximité des plages et de la vieille ville. Un emplacement idéal pour les couples et les familles.",
+      "ogTitle": "Emplacement à Dubrovnik | Villa Avantgarde",
+      "ogDescription": "Séjournez à Lapad, Dubrovnik, près des plages et de la vieille ville. L’emplacement parfait pour vos vacances."
     },
     "heroTitle": "Notre emplacement",
     "areaTitle": "Lapad, Dubrovnik",
-    "areaDescription": "Lapad est l'une des zones les plus belles et paisibles de Dubrovnik, connue pour ses plages, sa promenade, ses restaurants et son accès facile à la vieille ville.",
+    "areaDescription": "Lapad est l’un des quartiers les plus beaux et les plus paisibles de Dubrovnik, connu pour ses plages, sa promenade, ses restaurants et son accès facile à la vieille ville.",
     "cards": {
       "oldTown": { "title": "Vieille ville", "text": "10 minutes en voiture" },
       "beach": { "title": "Plage la plus proche", "text": "5 minutes à pied" },
       "bus": {
-        "title": "Gare routière",
+        "title": "Arrêt de bus",
         "text": "Connexion directe au centre-ville"
       },
       "airport": { "title": "Aéroport", "text": "25 minutes en voiture" }
@@ -89,18 +95,18 @@
     "contact": "Contact"
   },
   "bookForm": {
-    "submitButton": "Vérifier maintenant"
+    "submitButton": "Vérifier la disponibilité"
   },
   "rooms": {
     "gallery": "Galerie"
   },
   "footer": {
-    "copyright": "Droits d'auteur © {{year}}, {{hotelName}}. Tous droits réservés."
+    "copyright": "© {{year}} {{hotelName}}. Tous droits réservés."
   },
   "contactForm": {
     "firstName": "Prénom",
     "lastName": "Nom",
-    "email": "Email",
+    "email": "E-mail",
     "message": "Message",
     "messagePlaceholder": "Laissez-nous un message...",
     "submit": "Envoyer le message",

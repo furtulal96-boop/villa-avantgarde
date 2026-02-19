@@ -12,7 +12,7 @@ const SEOJsonLD = () => {
     const jsonLd = {
       "@context": "https://schema.org",
       "@type": "Hotel",
-      name: t("meta.title", "Eluize Inn Apartments"),
+      name: t("meta.title", "Villa Avantgarde"),
       image: "https://www.villa-avantgarde.com/og-image.jpg",
       address: {
         "@type": "PostalAddress",
