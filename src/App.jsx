@@ -9,11 +9,12 @@ import { Footer, Header, PageNotFound } from "./components";
 import { Home } from "./pages";
 import Location from "./pages/Location";
 import Contact from "./pages/Contact";
-import { useEffect } from "react";
-import SEOJsonLD from "./SeoJsonLD";
-import i18n from "./i18n";
 import RoomsApartments from "./pages/RoomsApartments";
 import Experience from "./pages/Experience";
+import i18n from "./i18n";
+import { useGA4PageView } from "./hooks/useGA4PageView"; // <-- tvoj hook
+import { useEffect } from "react";
+
 // ---------------- Language Wrapper ----------------
 const allowedLanguages = ["en", "it", "pl", "de", "fr", "es"];
 
@@ -43,12 +44,19 @@ const PageLayout = ({ Component }) => (
   </LanguageLayout>
 );
 
+// ---------------- GA4 Tracker Komponenta ----------------
+const GA4Tracker = () => {
+  useGA4PageView();
+  return null;
+};
+
 // ---------------- App ----------------
 const App = () => (
   <main>
-    <SEOJsonLD />
-
     <BrowserRouter>
+      {/* GA4 SPA Tracking */}
+      <GA4Tracker />
+
       <Routes>
         {/* Redirect root to English */}
         <Route path="/" element={<Navigate to="/en" replace />} />
@@ -67,6 +75,7 @@ const App = () => (
           path="/:lang/experience"
           element={<PageLayout Component={Experience} />}
         />
+
         {/* Location */}
         <Route
           path="/:lang/location"
