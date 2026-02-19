@@ -3,11 +3,11 @@ import { useRoomContext } from "../context/RoomContext";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
-const BookForm = () => {
+const BookForm = ({ transparent }) => {
   const { checkIn, checkOut } = useRoomContext();
   const formRef = useRef(null);
+  const { t } = useTranslation();
 
-  // Formatiranje datuma u YYYY-MM-DD
   const formatDate = (date) => {
     if (!date) return "";
     const d = new Date(date);
@@ -17,7 +17,6 @@ const BookForm = () => {
     return `${year}-${month}-${day}`;
   };
 
-  // Broj noćenja
   const calculateNights = () => {
     if (!checkIn || !checkOut) return "";
     const start = new Date(checkIn);
@@ -27,24 +26,20 @@ const BookForm = () => {
     return diffDays > 0 ? diffDays : "";
   };
 
-  // Handler za "Check Now" klik
   const handleCheckNow = (e) => {
     e.preventDefault();
-    const { t } = useTranslation();
-
-    setTimeout(() => {
-      formRef.current.submit();
-    }, 300);
+    formRef.current.submit();
   };
 
-  const { t } = useTranslation();
   return (
     <form
       ref={formRef}
       action="https://secure.phobs.net/book.php"
       method="get"
       target="_blank"
-      className="w-full bg-white shadow-md rounded-lg p-4 lg:p-6 flex flex-col lg:flex-row lg:items-end gap-4"
+      className={`w-full shadow-md rounded-lg p-4 lg:p-6 flex flex-col lg:flex-row lg:items-end gap-4 ${
+        transparent ? "bg-accent/20 backdrop-blur-md" : "bg-white"
+      }`}
     >
       {/* Required PHOBS params */}
       <input
@@ -78,7 +73,12 @@ const BookForm = () => {
         <button
           type="submit"
           onClick={handleCheckNow}
-          className="w-full lg:w-auto bg-accent text-white font-semibold px-6 py-3 rounded-md hover:bg-accent-dark transition"
+          className="
+            w-full lg:w-auto
+            bg-accent text-white font-semibold px-6 py-3 rounded-md
+            transition duration-300 ease-in-out
+            transform hover:scale-105 hover:shadow-xl hover:bg-accent-dark
+          "
         >
           {t("bookForm.submitButton")}
         </button>

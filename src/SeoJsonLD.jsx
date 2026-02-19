@@ -19,7 +19,7 @@ const SEOJsonLD = () => {
         addressLocality: t("address.city", "Dubrovnik"),
         addressCountry: t("address.country", "HR"),
       },
-      url: "https://www.eluize-inn.com",
+      url: "https://www.villaavantgarde.com",
       telephone: "+385995263114",
       priceRange: "€€",
       amenityFeature: [

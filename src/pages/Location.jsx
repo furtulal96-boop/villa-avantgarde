@@ -12,7 +12,10 @@ const Location = () => {
 
         <meta name="description" content={t("location.meta.description")} />
 
-        <link rel="canonical" href="https://www.eluize-inn.com/location" />
+        <link
+          rel="canonical"
+          href="https://www.villa-avantgarde.com/location"
+        />
 
         {/* Open Graph */}
         <meta property="og:title" content={t("location.meta.ogTitle")} />
@@ -20,32 +23,32 @@ const Location = () => {
           property="og:description"
           content={t("location.meta.ogDescription")}
         />
-        <meta property="og:url" content="https://www.eluize-inn.com/location" />
+        <meta
+          property="og:url"
+          content="https://www.villa-avantgarde.com/location"
+        />
         <meta property="og:type" content="website" />
 
         {/* Structured Data */}
         <script type="application/ld+json">
           {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Hotel",
-              "name": "Eluize Inn",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Ul. Iva Dulčića 20/C",
-                "addressLocality": "Dubrovnik",
-                "addressRegion": "Dubrovnik-Neretva",
-                "postalCode": "20000",
-                "addressCountry": "HR"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 42.6539,
-                "longitude": 18.0947
-              },
-              "url": "https://www.eluize-inn.com/location"
-            }
-          `}
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Villa Avantgarde",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Put Bruna Bušića 33",
+        "addressLocality": "Mlini",
+        "addressRegion": "Dubrovnik-Neretva",
+        "postalCode": "20207",
+        "addressCountry": "HR"
+      },
+      "telephone": ["+385995263114", "+385992435616"],
+      "email": "info@villaavantgarde.com",
+      "url": "https://www.villa-avantgarde.com"
+    }
+  `}
         </script>
       </Helmet>
 
@@ -66,8 +69,8 @@ const Location = () => {
             {/* Google Map */}
             <div className="w-full h-[380px] sm:h-[420px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <iframe
-                title="Eluize Inn Location"
-                src="https://www.google.com/maps?q=Ul.+Iva+Dul%C4%8Di%C4%87a+20%2FC,+Dubrovnik&output=embed"
+                title="Villa Avantgarde Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
                 className="w-full h-full border-0"
                 allowFullScreen
                 loading="lazy"

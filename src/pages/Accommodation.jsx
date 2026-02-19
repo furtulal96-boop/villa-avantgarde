@@ -42,7 +42,7 @@ const Accomodation = () => {
         {/* Open Graph */}
         <meta
           property="og:title"
-          content={`${t("accomodation.pageTitle")} | Eluize Inn`}
+          content={`${t("accomodation.pageTitle")} | Villa Avantgarde`}
         />
         <meta property="og:description" content={t("accomodation.intro1")} />
         <meta property="og:url" content="https://eluize-inn.com/accomodation" />
@@ -53,7 +53,7 @@ const Accomodation = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Hotel",
-            name: "Eluize Inn",
+            name: "Villa Avantgarde",
             address: {
               "@type": "PostalAddress",
               addressLocality: t("address.city"),
@@ -93,7 +93,7 @@ const Accomodation = () => {
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
                   src="https://www.youtube.com/embed/rS_sF1Xmvao"
-                  title="Eluize Inn Dubrovnik"
+                  title="Villa Avantgarde"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -135,7 +135,7 @@ const Accomodation = () => {
             >
               <img
                 src={suite.img}
-                alt={`${suite.title} at Eluize Inn Dubrovnik`}
+                alt={`${suite.title} at Villa Avantgarde Dubrovnik`}
                 className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover transition-transform duration-500 group-hover:scale-105"
               />
 

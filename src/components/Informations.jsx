@@ -42,10 +42,10 @@ const InfoComponent = () => {
 
             <div className="pt-4">
               <a
-                href="mailto:info@eluize-inn.com"
+                href="mailto:info@villaavantgarde.com"
                 className="hover:text-accent transition"
               >
-                info@eluize-inn.com
+                info@villaavantgarde.com
               </a>
             </div>
           </div>

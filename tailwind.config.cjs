@@ -21,8 +21,8 @@ module.exports = {
       colors: {
         primary: "#0a0a0a",
         accent: {
-          DEFAULT: "#a37d4c",
-          hover: "#967142",
+          DEFAULT: "#4A90E2", // elegantna plava
+          hover: "#357ABD", // tamnija nijansa za hover
         },
       },
       backgroundImage: {

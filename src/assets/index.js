@@ -29,7 +29,7 @@ import BuildingInside from "./img/rooms/buildingInside.jpg";
 import roomView from "./img/rooms/room-view.jpg";
 import DorucakImg from "./img/rooms/dorucak-phobs.jpg";
 
-import Slider1 from "./img/dubrovnik.jpg";
+import Slider1 from "./img/heroSlider/1.jpg";
 import Slider2 from "./img/heroSlider/2.jpg";
 import Slider3 from "./img/heroSlider/3.jpg";
 
