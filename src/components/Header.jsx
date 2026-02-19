@@ -108,8 +108,8 @@ const Header = () => {
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold shadow-md transition-all duration-300 ${
                 header
-                  ? "bg-white/60 text-primary hover:bg-accent hover:text-white"
-                  : "bg-white/20 text-white hover:bg-white/40"
+                  ? "text-primary hover:bg-accent hover:text-white"
+                  : "text-white hover:bg-white/40"
               }`}
             >
               {currentLanguage && (
