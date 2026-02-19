@@ -44,7 +44,7 @@ const SEOJsonLD = () => {
     return () => {
       document.head.removeChild(script);
     };
-  }, [i18n.language, t]); // Re-render ako se promijeni jezik
+  }, [i18n.language, t]);
 
   return null;
 };
