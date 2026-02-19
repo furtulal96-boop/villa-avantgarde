@@ -1,151 +1,133 @@
-import { ScrollToTop, Informations } from "../components";
+import { Informations, ScrollToTop } from "../components";
 import { Helmet } from "react-helmet";
-import doubleSuiteImg from "../assets/img/rooms/6.jpg";
-import tripleSuiteImg from "../assets/img/rooms/16.jpg";
-import oneBedroomImg from "../assets/img/rooms/19.jpg";
-import familySuiteImg from "../assets/img/rooms/7.jpg";
-import { useTranslation } from "react-i18next";
+import {
+  FaUserFriends,
+  FaRulerCombined,
+  FaWifi,
+  FaSnowflake,
+  FaTv,
+  FaCoffee,
+  FaCar,
+} from "react-icons/fa";
 
-const RoomsApartments = () => {
-  const { t } = useTranslation();
+import heroImg from "../assets/img/location-beach.jpg";
 
-  const suites = [
-    {
-      title: t("accomodation.suites.0.title"),
-      img: doubleSuiteImg,
-      link: "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543",
-    },
-    {
-      title: t("accomodation.suites.1.title"),
-      img: tripleSuiteImg,
-      link: "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543",
-    },
-    {
-      title: t("accomodation.suites.2.title"),
-      img: oneBedroomImg,
-      link: "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543",
-    },
-    {
-      title: t("accomodation.suites.3.title"),
-      img: familySuiteImg,
-      link: "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543",
-    },
-  ];
+import doubleImg from "../assets/img/double-room.jpg";
+import tripleImg from "../assets/img/triple-room.jpg";
+import familyImg from "../assets/img/family-suite.jpg";
+import studioImg from "../assets/img/studio-apartment.jpg";
+import oneBedroomImg from "../assets/img/one-bedroom.jpg";
+import twoBedroomImg from "../assets/img/two-bedroom.jpg";
+import superiorImg from "../assets/img/superior-two-bedroom.jpg";
 
+const bookingLink =
+  "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543";
+
+const RommsApartments = () => {
   return (
     <>
       <Helmet>
-        <title>{t("accomodation.pageTitle")}</title>
-        <meta name="description" content={t("meta.description")} />
-        <link rel="canonical" href="https://eluize-inn.com/accomodation" />
-
-        {/* Open Graph */}
+        <title>Rooms & Apartments | Villa Avantgarde</title>
         <meta
-          property="og:title"
-          content={`${t("accomodation.pageTitle")} | Villa Avantgarde`}
+          name="description"
+          content="Luxury rooms and apartments in Mlini near Dubrovnik. Modern comfort, privacy and elegant design at Villa Avantgarde."
         />
-        <meta property="og:description" content={t("accomodation.intro1")} />
-        <meta property="og:url" content="https://eluize-inn.com/accomodation" />
-        <meta property="og:type" content="website" />
-
-        {/* Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Hotel",
-            name: "Villa Avantgarde",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: t("address.city"),
-              addressCountry: t("address.country"),
-            },
-            url: "https://eluize-inn.com/accomodation",
-            makesOffer: suites.map((s) => ({
-              "@type": "Offer",
-              name: s.title,
-            })),
-          })}
-        </script>
       </Helmet>
 
       <section>
         <ScrollToTop />
 
-        <div className="bg-room h-[420px] sm:h-[500px] lg:h-[560px] relative flex justify-center items-center bg-cover bg-center">
-          <div className="absolute w-full h-full bg-black/70" />
-          <h1 className="text-3xl sm:text-4xl lg:text-6xl text-white z-20 font-primary text-center px-4">
-            {t("accomodation.pageTitle")}
-          </h1>
-        </div>
-
-        <div className="container mx-auto px-6 lg:px-0">
-          <div className="flex flex-col lg:flex-row lg:gap-x-12 py-16 lg:py-24 items-center">
-            <div className="w-full lg:w-[60%] space-y-6 text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight">
-                {t("accomodation.h2")}
-              </h2>
-
-              <p className="text-gray-600 leading-relaxed">
-                {t("accomodation.intro1")}
-              </p>
-
-              <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl shadow-lg">
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/rS_sF1Xmvao"
-                  title="Villa Avantgarde"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-
-              <p className="text-gray-600 leading-relaxed">
-                {t("accomodation.intro2")}
-              </p>
-            </div>
-
-            <div className="w-full lg:w-[40%] space-y-8 mt-12 lg:mt-0">
-              <div className="py-6 px-6 bg-accent/20 rounded-xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4">
-                  {t("accomodation.highlightsTitle")}
-                </h3>
-                <ul className="flex flex-col gap-y-3 text-gray-700">
-                  {Object.values(
-                    t("accomodation.highlights", { returnObjects: true }),
-                  ).map((item, i) => (
-                    <li key={i} className="flex items-start gap-x-3">
-                      <span className="text-accent text-lg">✔</span> {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+        {/* HERO SMALL */}
+        <div
+          className="relative h-[220px] lg:h-[280px] flex items-center justify-center bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImg})` }}
+        >
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative z-10 text-center text-white px-6">
+            <h1 className="text-3xl lg:text-5xl font-primary tracking-wide">
+              Rooms & Apartments
+            </h1>
+            <div className="w-20 h-1 bg-white/80 mx-auto my-4 rounded-full" />
+            <p className="text-sm lg:text-base opacity-90 max-w-xl mx-auto">
+              Comfort, privacy and elegant design in Mlini.
+            </p>
           </div>
         </div>
 
-        <div className="container mx-auto px-6 lg:px-0 py-16 space-y-8">
-          {suites.map((suite, index) => (
-            <a
-              key={index}
-              href={suite.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative block rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
-            >
-              <img
-                src={suite.img}
-                alt={`${suite.title} at Villa Avantgarde Dubrovnik`}
-                className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover transition-transform duration-500 group-hover:scale-105"
-              />
+        <div className="container mx-auto px-6 lg:px-0 py-20 space-y-20">
+          {/* INTRO */}
+          <div className="text-center max-w-4xl mx-auto space-y-6">
+            <h2 className="text-3xl font-semibold">
+              Equipped to the Highest Standard
+            </h2>
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end p-6">
-                <h3 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold">
-                  {suite.title}
-                </h3>
-              </div>
-            </a>
-          ))}
+            <p className="text-gray-600 leading-relaxed">
+              Our aim is that our guests do not feel like staying in a regular
+              hotel, but more like staying in a home away from home — with
+              premium amenities and complete privacy.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed">
+              Daily breakfast, air-conditioning, HD TV, WiFi Internet access,
+              private parking and modern furniture are just some of the features
+              that make your stay perfect.
+            </p>
+
+            {/* AMENITIES */}
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 pt-6">
+              <Amenity icon={<FaCoffee />} text="Breakfast" />
+              <Amenity icon={<FaSnowflake />} text="Air Conditioning" />
+              <Amenity icon={<FaTv />} text="HD TV" />
+              <Amenity icon={<FaWifi />} text="Free WiFi" />
+              <Amenity icon={<FaCar />} text="Parking" />
+            </div>
+          </div>
+
+          {/* ROOMS GRID */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <RoomCard
+              img={doubleImg}
+              title="Double Room"
+              size="28 m²"
+              guests="2 Guests"
+            />
+            <RoomCard
+              img={tripleImg}
+              title="Triple Room"
+              size="30 m²"
+              guests="3 Guests"
+            />
+            <RoomCard
+              img={familyImg}
+              title="Family Suite"
+              size="35 m²"
+              guests="4 Guests"
+            />
+            <RoomCard
+              img={studioImg}
+              title="Studio Apartment"
+              size="35 m²"
+              guests="2 Guests"
+            />
+            <RoomCard
+              img={oneBedroomImg}
+              title="One Bedroom Apartment"
+              size="40 m²"
+              guests="4 Guests"
+            />
+            <RoomCard
+              img={twoBedroomImg}
+              title="Two Bedroom Apartment"
+              size="55 m²"
+              guests="4 Guests"
+            />
+            <RoomCard
+              img={superiorImg}
+              title="Superior Two Bedroom Apartment"
+              size="65 m²"
+              guests="4 Guests"
+            />
+          </div>
         </div>
 
         <Informations />
@@ -154,4 +136,46 @@ const RoomsApartments = () => {
   );
 };
 
-export default RoomsApartments;
+const Amenity = ({ icon, text }) => (
+  <div className="flex flex-col items-center gap-2 bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+    <div className="text-primary text-xl">{icon}</div>
+    <p className="text-sm text-gray-600 text-center">{text}</p>
+  </div>
+);
+
+const RoomCard = ({ img, title, size, guests }) => (
+  <a
+    href={bookingLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="relative group overflow-hidden rounded-3xl shadow-2xl"
+  >
+    <img
+      src={img}
+      alt={title}
+      className="w-full h-[420px] object-cover transform group-hover:scale-105 transition duration-700"
+    />
+
+    {/* OVERLAY */}
+    <div className="absolute inset-0 bg-black/20 group-hover:bg-black/70 transition duration-500 flex flex-col justify-end p-8">
+      <h3 className="text-white text-2xl font-semibold mb-4">{title}</h3>
+
+      <div className="opacity-0 group-hover:opacity-100 transition duration-500 space-y-2 text-white">
+        <div className="flex items-center gap-2">
+          <FaRulerCombined />
+          <span>{size}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <FaUserFriends />
+          <span>{guests}</span>
+        </div>
+
+        <div className="mt-4 text-sm tracking-wide uppercase">
+          Check Availability →
+        </div>
+      </div>
+    </div>
+  </a>
+);
+
+export default RommsApartments;
