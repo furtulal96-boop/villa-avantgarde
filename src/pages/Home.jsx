@@ -6,7 +6,7 @@ import {
   Gallery,
 } from "../components";
 import { Helmet } from "react-helmet";
-import introImg from "../assets/img/room.jpg";
+import introImg from "../assets/img/villaMain.jpg";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
