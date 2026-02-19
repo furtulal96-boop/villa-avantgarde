@@ -13,7 +13,7 @@ const SEOJsonLD = () => {
       "@context": "https://schema.org",
       "@type": "Hotel",
       name: t("meta.title", "Villa Avantgarde"),
-      image: "https://www.villa-avantgarde.com/og-image.jpg",
+      image: "https://www.villaavantgarde.com/og-image.jpg",
       address: {
         "@type": "PostalAddress",
         addressLocality: t("address.city", "Dubrovnik"),
