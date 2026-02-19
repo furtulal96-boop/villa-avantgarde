@@ -7,12 +7,12 @@ import {
 } from "react-router-dom";
 import { Footer, Header, PageNotFound } from "./components";
 import { Home } from "./pages";
-import Accomodation from "./pages/Accommodation";
 import Location from "./pages/Location";
 import Contact from "./pages/Contact";
 import { useEffect } from "react";
 import SEOJsonLD from "./SeoJsonLD";
 import i18n from "./i18n";
+import RoomsApartments from "./pages/RoomsApartments";
 
 // ---------------- Language Wrapper ----------------
 const allowedLanguages = ["en", "it", "pl", "de", "fr", "es"];
@@ -56,10 +56,10 @@ const App = () => (
         {/* Home */}
         <Route path="/:lang" element={<PageLayout Component={Home} />} />
 
-        {/* Accommodation */}
+        {/* Rooms and Apartments */}
         <Route
-          path="/:lang/accommodation"
-          element={<PageLayout Component={Accomodation} />}
+          path="/:lang/rooms-apartments"
+          element={<PageLayout Component={RoomsApartments} />}
         />
 
         {/* Location */}

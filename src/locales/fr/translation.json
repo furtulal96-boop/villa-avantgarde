@@ -1,15 +1,15 @@
 {
   "meta": {
-    "title": "Villa Avantgarde Dubrovnik | Hébergement à Lapad",
-    "description": "Appartements modernes d'une et deux chambres à Dubrovnik, dans le quartier de Lapad, près des plages et de la vieille ville. Réservez en direct pour garantir le meilleur prix."
+    "title": "Villa Avantgarde Dubrovnik | Hébergement à Mlini",
+    "description": "Appartements modernes d'une et deux chambres à Dubrovnik, dans le quartier de Mlini, près des plages et de la vieille ville. Réservez en direct pour garantir le meilleur prix."
   },
   "home": {
     "h1": "Appartements à Dubrovnik – Villa Avantgarde",
-    "intro": "Hébergement moderne à Dubrovnik, dans le quartier de Lapad, à proximité des plages et de la vieille ville. Idéal pour les couples et les familles à la recherche de confort et d’un excellent emplacement.",
+    "intro": "Hébergement moderne à Dubrovnik, dans le quartier de Mlini, à proximité des plages et de la vieille ville. Idéal pour les couples et les familles à la recherche de confort et d’un excellent emplacement.",
     "tagline": "Luxe & Confort"
   },
   "address": {
-    "city": "Dubrovnik",
+    "city": "Mlini, Dubrovnik",
     "country": "Croatie"
   },
   "amenities": {
@@ -55,8 +55,8 @@
     "getInTouch": "Entrer en contact",
     "intro": "Nous serions ravis d’avoir de vos nouvelles ! Veuillez remplir le formulaire ou nous contacter via les coordonnées ci-dessous.",
     "address": {
-      "street": "Iva Dulčića 20/C",
-      "city": "20000 Dubrovnik, Croatie"
+      "street": "Put Bruna Bušića 33",
+      "city": "20207 Mlini, Dubrovnik, Croatie"
     },
     "phone": {
       "label": "Téléphone",
@@ -67,21 +67,21 @@
       "address": "info@villaavantgarde.com"
     },
     "mapTitle": "Emplacement de Villa Avantgarde Dubrovnik",
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sPut%20Bruna%20Bu%C5%A1i%C4%87a%2033%2C%2020207%20Mlini%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
   },
   "location": {
     "meta": {
-      "title": "Emplacement à Dubrovnik | Villa Avantgarde",
-      "description": "Villa Avantgarde est située à Lapad, Dubrovnik, à proximité des plages et de la vieille ville. Un emplacement idéal pour les couples et les familles.",
-      "ogTitle": "Emplacement à Dubrovnik | Villa Avantgarde",
-      "ogDescription": "Séjournez à Lapad, Dubrovnik, près des plages et de la vieille ville. L’emplacement parfait pour vos vacances."
+      "title": "Emplacement à Mlini | Villa Avantgarde",
+      "description": "Villa Avantgarde est située à Mlini, Dubrovnik, à proximité des plages et de la vieille ville. Un emplacement idéal pour les couples et les familles.",
+      "ogTitle": "Emplacement à Mlini | Villa Avantgarde",
+      "ogDescription": "Séjournez à Mlini, Dubrovnik, près des plages et de la vieille ville. L’emplacement parfait pour vos vacances."
     },
     "heroTitle": "Notre emplacement",
-    "areaTitle": "Lapad, Dubrovnik",
-    "areaDescription": "Lapad est l’un des quartiers les plus beaux et les plus paisibles de Dubrovnik, connu pour ses plages, sa promenade, ses restaurants et son accès facile à la vieille ville.",
+    "areaTitle": "Mlini, Dubrovnik",
+    "areaDescription": "Mlini est un charmant quartier au sud de Dubrovnik, connu pour ses plages tranquilles, ses restaurants et son accès facile à la vieille ville.",
     "cards": {
-      "oldTown": { "title": "Vieille ville", "text": "10 minutes en voiture" },
-      "beach": { "title": "Plage la plus proche", "text": "5 minutes à pied" },
+      "oldTown": { "title": "Vieille ville", "text": "15 minutes en voiture" },
+      "beach": { "title": "Plage la plus proche", "text": "3 minutes à pied" },
       "bus": {
         "title": "Arrêt de bus",
         "text": "Connexion directe au centre-ville"
@@ -102,7 +102,7 @@
     "gallery": "Galerie"
   },
   "footer": {
-    "copyright": "© {{year}} {{hotelName}}. Tous droits réservés."
+    "copyright": "© {{year}} Villa Avantgarde. Tous droits réservés."
   },
   "contactForm": {
     "firstName": "Prénom",

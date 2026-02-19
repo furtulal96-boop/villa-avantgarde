@@ -6,7 +6,7 @@ import oneBedroomImg from "../assets/img/rooms/19.jpg";
 import familySuiteImg from "../assets/img/rooms/7.jpg";
 import { useTranslation } from "react-i18next";
 
-const Accomodation = () => {
+const RoomsApartments = () => {
   const { t } = useTranslation();
 
   const suites = [
@@ -154,4 +154,4 @@ const Accomodation = () => {
   );
 };
 
-export default Accomodation;
+export default RoomsApartments;

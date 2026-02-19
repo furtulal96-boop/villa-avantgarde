@@ -29,6 +29,8 @@ module.exports = {
         room: "url('/src/assets/img/room.jpg')",
         lapad: "url('/src/assets/img/lapad.jpg')",
         object: "url('/src/assets/img/rooms/object.jpg')",
+        lokacija: "url('/src/assets/img/lokacija.jpg')",
+        locationBeach: "url('/src/assets/img/location-beach.jpg')",
       },
     },
   },

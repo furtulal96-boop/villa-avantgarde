@@ -9,13 +9,8 @@ const Location = () => {
     <>
       <Helmet>
         <title>{t("location.meta.title")}</title>
-
         <meta name="description" content={t("location.meta.description")} />
-
-        <link
-          rel="canonical"
-          href="https://www.villa-avantgarde.com/location"
-        />
+        <link rel="canonical" href="https://www.villaavantgarde.com/location" />
 
         {/* Open Graph */}
         <meta property="og:title" content={t("location.meta.ogTitle")} />
@@ -25,7 +20,7 @@ const Location = () => {
         />
         <meta
           property="og:url"
-          content="https://www.villa-avantgarde.com/location"
+          content="https://www.villaavantgarde.com/location"
         />
         <meta property="og:type" content="website" />
 
@@ -46,7 +41,7 @@ const Location = () => {
       },
       "telephone": ["+385995263114", "+385992435616"],
       "email": "info@villaavantgarde.com",
-      "url": "https://www.villa-avantgarde.com"
+      "url": "https://www.villaavantgarde.com"
     }
   `}
         </script>
@@ -56,7 +51,7 @@ const Location = () => {
         <ScrollToTop />
 
         {/* Hero */}
-        <div className="bg-lapad h-[220px] sm:h-[260px] lg:h-[320px] relative flex items-center justify-center bg-cover bg-center">
+        <div className="bg-locationBeach h-[220px] sm:h-[260px] lg:h-[320px] relative flex items-center justify-center bg-cover bg-center">
           <div className="absolute w-full h-full bg-black/60" />
           <h1 className="hidden lg:block text-5xl text-white font-primary z-20 text-center">
             {t("location.heroTitle")}
@@ -70,7 +65,7 @@ const Location = () => {
             <div className="w-full h-[380px] sm:h-[420px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <iframe
                 title="Villa Avantgarde Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2936.508419383372!2d18.11663511560971!3d42.618821879161874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c9467bfa12345%3A0xabcdef1234567890!2sPut%20Bruna%20Bu%C5%A1i%C4%87a%2033%2C%2020207%20Mlini%2C%20Croatia!5e0!3m2!1sen!2s!4v1699999999999!5m2!1sen!2s"
                 className="w-full h-full border-0"
                 allowFullScreen
                 loading="lazy"

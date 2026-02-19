@@ -18,8 +18,8 @@ const InfoComponent = () => {
 
           {/* Contact Info */}
           <div className="text-lg space-y-2">
-            <p>Iva Dulčića 20/C</p>
-            <p>20000 Dubrovnik</p>
+            <p>Put Bruna Bušića 33</p>
+            <p>20207 Mlini, Dubrovnik</p>
 
             <div className="pt-4 space-y-1">
               <p>
@@ -53,7 +53,7 @@ const InfoComponent = () => {
           {/* Social Icons */}
           <div className="flex justify-center gap-6 pt-6">
             <a
-              href="https://www.facebook.com/eluize.dubrovnik"
+              href="https://www.facebook.com/villaavantgarde"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:text-accent-dark transition text-2xl"
@@ -62,7 +62,7 @@ const InfoComponent = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://www.instagram.com/eluize.dubrovnik"
+              href="https://www.instagram.com/villaavantgarde"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:text-accent-dark transition text-2xl"
@@ -71,7 +71,7 @@ const InfoComponent = () => {
               <FaInstagram />
             </a>
             <a
-              href="linkedin.com/company/eluize-dubrovnik"
+              href="https://www.linkedin.com/company/villaavantgarde"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:text-accent-dark transition text-2xl"
@@ -80,7 +80,7 @@ const InfoComponent = () => {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCF0YAK6XCPEwF8RivWhDfzg"
+              href="https://www.youtube.com/@villaavantgarde"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:text-accent-dark transition text-2xl"

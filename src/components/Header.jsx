@@ -46,7 +46,7 @@ const Header = () => {
   // Nav links sa apsolutnim putanjama
   const navLinks = [
     { to: `/${lang}`, label: t("nav.home") },
-    { to: `/${lang}/accommodation`, label: t("nav.accommodation") },
+    { to: `/${lang}/rooms-apartments`, label: t("nav.rooms-apartments") },
     { to: `/${lang}/location`, label: t("nav.location") },
     { to: `/${lang}/contact`, label: t("nav.contact") },
   ];

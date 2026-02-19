@@ -1,15 +1,15 @@
 {
   "meta": {
-    "title": "Villa Avantgarde Dubrownik | Apartamenty w Lapad",
-    "description": "Nowoczesne apartamenty z jedną i dwiema sypialniami w Dubrowniku, w dzielnicy Lapad, blisko plaż i Starego Miasta. Rezerwuj bezpośrednio, aby zagwarantować najlepszą cenę."
+    "title": "Villa Avantgarde Dubrownik | Apartamenty w Mlini",
+    "description": "Nowoczesne apartamenty z jedną i dwiema sypialniami w Dubrowniku, w dzielnicy Mlini, blisko plaż i Starego Miasta. Rezerwuj bezpośrednio, aby zagwarantować najlepszą cenę."
   },
   "home": {
     "h1": "Apartamenty w Dubrowniku – Villa Avantgarde",
-    "intro": "Nowoczesne zakwaterowanie w Dubrowniku, w dzielnicy Lapad, blisko plaż i Starego Miasta. Idealne dla par i rodzin poszukujących komfortu i doskonałej lokalizacji.",
+    "intro": "Nowoczesne zakwaterowanie w Dubrowniku, w dzielnicy Mlini, blisko plaż i Starego Miasta. Idealne dla par i rodzin poszukujących komfortu i doskonałej lokalizacji.",
     "tagline": "Luksus i Komfort"
   },
   "address": {
-    "city": "Dubrownik",
+    "city": "Mlini, Dubrownik",
     "country": "Chorwacja"
   },
   "amenities": {
@@ -55,30 +55,30 @@
     "getInTouch": "Skontaktuj się",
     "intro": "Chętnie Cię usłyszymy! Wypełnij formularz lub skontaktuj się z nami za pomocą danych poniżej.",
     "address": {
-      "street": "Iva Dulčića 20/C",
-      "city": "20000 Dubrownik, Chorwacja"
+      "street": "Put Bruna Bušića 33",
+      "city": "20207 Mlini, Dubrownik, Chorwacja"
     },
     "phone": {
       "label": "Telefon",
       "numbers": ["+385995263114", "+385992435616"]
     },
-    "email": { "label": "Email", "address": "info@eluize-inn.com" },
+    "email": { "label": "Email", "address": "info@villaavantgarde.com" },
     "mapTitle": "Lokalizacja Villa Avantgarde Dubrownik",
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sUl.%20Iva%20Dul%C4%8Di%C4%87a%2020%2FC%2C%2020000%20Dubrovnik%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.177611672992!2d18.09563121561233!3d42.64723317918183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c93bff7e89adf%3A0xe08364da68d271a!2sPut%20Bruna%20Bu%C5%A1i%C4%87a%2033%2C%2020207%20Mlini%2C%20Croatia!5e0!3m2!1sen!2s!4v1696711520445!5m2!1sen!2s"
   },
   "location": {
     "meta": {
-      "title": "Nasza lokalizacja w Dubrowniku | Villa Avantgarde",
-      "description": "Villa Avantgarde znajduje się w Lapad, Dubrownik, blisko plaż i Starego Miasta. Idealne miejsce dla par i rodzin.",
-      "ogTitle": "Nasza lokalizacja w Dubrowniku | Villa Avantgarde",
-      "ogDescription": "Zatrzymaj się w Lapad, Dubrownik, blisko plaż i Starego Miasta. Doskonała lokalizacja na wakacje."
+      "title": "Nasza lokalizacja w Mlini | Villa Avantgarde",
+      "description": "Villa Avantgarde znajduje się w Mlini, Dubrownik, blisko plaż i Starego Miasta. Idealne miejsce dla par i rodzin.",
+      "ogTitle": "Nasza lokalizacja w Mlini | Villa Avantgarde",
+      "ogDescription": "Zatrzymaj się w Mlini, Dubrownik, blisko plaż i Starego Miasta. Doskonała lokalizacja na wakacje."
     },
     "heroTitle": "Nasza lokalizacja",
-    "areaTitle": "Lapad, Dubrownik",
-    "areaDescription": "Lapad jest jedną z najpiękniejszych i najspokojniejszych dzielnic Dubrownika, znaną z plaż, promenady, restauracji i łatwego dostępu do Starego Miasta.",
+    "areaTitle": "Mlini, Dubrownik",
+    "areaDescription": "Mlini jest uroczą dzielnicą na południe od Dubrownika, znaną z cichych plaż, restauracji i łatwego dostępu do Starego Miasta.",
     "cards": {
-      "oldTown": { "title": "Stare Miasto", "text": "10 minut samochodem" },
-      "beach": { "title": "Najbliższa plaża", "text": "5 minut pieszo" },
+      "oldTown": { "title": "Stare Miasto", "text": "15 minut samochodem" },
+      "beach": { "title": "Najbliższa plaża", "text": "3 minuty pieszo" },
       "bus": {
         "title": "Dworzec autobusowy",
         "text": "Bezpośrednie połączenie z centrum miasta"
@@ -97,7 +97,7 @@
   },
   "rooms": { "gallery": "Galeria" },
   "footer": {
-    "copyright": "© {{year}} {{hotelName}}. Wszelkie prawa zastrzeżone."
+    "copyright": "© {{year}} Villa Avantgarde. Wszelkie prawa zastrzeżone."
   },
   "contactForm": {
     "firstName": "Imię",
