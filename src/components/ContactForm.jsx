@@ -15,8 +15,8 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        "service_l0cuikt",
-        "template_nvwmn0a",
+        "service_v49wawo",
+        "template_46innwn",
         {
           firstName: data.firstName,
           lastName: data.lastName,
