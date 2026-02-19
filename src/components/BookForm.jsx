@@ -1,13 +1,12 @@
 import { CheckIn, CheckOut } from ".";
 import { useRoomContext } from "../context/RoomContext";
-import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const BookForm = ({ transparent }) => {
   const { checkIn, checkOut } = useRoomContext();
-  const formRef = useRef(null);
   const { t } = useTranslation();
 
+  // Formatiranje datuma u YYYY-MM-DD za RoomCloud
   const formatDate = (date) => {
     if (!date) return "";
     const d = new Date(date);
@@ -17,47 +16,28 @@ const BookForm = ({ transparent }) => {
     return `${year}-${month}-${day}`;
   };
 
-  const calculateNights = () => {
-    if (!checkIn || !checkOut) return "";
-    const start = new Date(checkIn);
-    const end = new Date(checkOut);
-    const diffTime = end - start;
-    const diffDays = diffTime / (1000 * 60 * 60 * 24);
-    return diffDays > 0 ? diffDays : "";
-  };
-
   const handleCheckNow = (e) => {
     e.preventDefault();
-    formRef.current.submit();
+
+    if (!checkIn || !checkOut) {
+      alert(t("bookForm.selectDates"));
+      return;
+    }
+
+    const arrival = formatDate(checkIn);
+    const departure = formatDate(checkOut);
+
+    const roomCloudUrl = `https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543&arrival=${arrival}&departure=${departure}&lang=en`;
+
+    window.open(roomCloudUrl, "_blank");
   };
 
   return (
-    <form
-      ref={formRef}
-      action="https://secure.phobs.net/book.php"
-      method="get"
-      target="_blank"
+    <div
       className={`w-full shadow-md rounded-lg p-4 lg:p-6 flex flex-col lg:flex-row lg:items-end gap-4 ${
         transparent ? "bg-accent/20 backdrop-blur-md" : "bg-white"
       }`}
     >
-      {/* Required PHOBS params */}
-      <input
-        type="hidden"
-        name="company_id"
-        value="94291702c977f0bc1777c729e6d67c35"
-      />
-      <input
-        type="hidden"
-        name="hotel"
-        value="e33dd182ca352dbc9e65d35059af7853"
-      />
-
-      {/* Booking params */}
-      <input type="hidden" name="date" value={formatDate(checkIn)} />
-      <input type="hidden" name="nights" value={calculateNights()} />
-      <input type="hidden" name="lang" value="en" />
-
       {/* Check In UI */}
       <div className="flex-1 min-w-[120px]">
         <CheckIn />
@@ -71,19 +51,21 @@ const BookForm = ({ transparent }) => {
       {/* Submit button */}
       <div className="w-full lg:w-auto">
         <button
-          type="submit"
           onClick={handleCheckNow}
           className="
-            w-full lg:w-auto
+            relative overflow-hidden w-full lg:w-auto
             bg-accent text-white font-semibold px-6 py-3 rounded-md
-            transition duration-300 ease-in-out
-            transform hover:scale-105 hover:shadow-xl hover:bg-accent-dark
+            transition-all duration-500 ease-in-out
+            hover:bg-gradient-to-r hover:from-accent/90 hover:to-accent-dark/90
+            hover:scale-105 hover:shadow-xl
           "
         >
-          {t("bookForm.submitButton")}
+          <span className="relative z-10">{t("bookForm.submitButton")}</span>
+          {/* Optional shine effect */}
+          <span className="absolute inset-0 bg-white/10 -translate-x-full rotate-12 pointer-events-none transition-transform duration-700 ease-in-out hover:translate-x-full"></span>
         </button>
       </div>
-    </form>
+    </div>
   );
 };
 

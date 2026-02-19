@@ -33,19 +33,19 @@
     "suites": [
       {
         "title": "Suite matrimoniale con balcone",
-        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853"
+        "link": "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543"
       },
       {
         "title": "Suite tripla",
-        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32705"
+        "link": "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543"
       },
       {
         "title": "Appartamento con una camera e balcone",
-        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32151"
+        "link": "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543"
       },
       {
         "title": "Suite familiare",
-        "link": "https://secure.phobs.net/book.php?company_id=94291702c977f0bc1777c729e6d67c35&hotel=e33dd182ca352dbc9e65d35059af7853&unit_select=1&unit_id=32706"
+        "link": "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=21543"
       }
     ]
   },
